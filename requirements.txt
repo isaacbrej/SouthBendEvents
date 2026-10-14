@@ -1,0 +1,9 @@
+streamlit
+pandas
+python-dateutil
+requests
+beautifulsoup4
+pyyaml
+openpyxl
+urllib3
+playwright
