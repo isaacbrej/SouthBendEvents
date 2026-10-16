@@ -78,7 +78,6 @@ def discover_alternate_urls(source_name, current_url):
                 test_url, headers=HEADERS, timeout=4, verify=False
             )
             if res.status_code in [200, 301, 302]:
-                # Verify page content length via GET if HEAD succeeds
                 get_res = requests.get(
                     test_url, headers=HEADERS, timeout=4, verify=False
                 )
@@ -87,7 +86,7 @@ def discover_alternate_urls(source_name, current_url):
         except Exception:
             pass
 
-        if len(discovered) >= 3:
+        if len(discovered) >= 2:
             break
 
     # 2. Homepage Link Crawl (if direct paths yielded fewer than 2 candidates)
@@ -114,7 +113,7 @@ def discover_alternate_urls(source_name, current_url):
                         ):
                             discovered.append(full_alt)
 
-                    if len(discovered) >= 4:
+                    if len(discovered) >= 2:
                         break
         except Exception:
             pass
@@ -169,47 +168,53 @@ def run_comprehensive_audit():
                 alts = res["discovered_alts"]
                 if alts:
                     print(
-                        f"✅ [{item['name']}] Found {len(alts)} candidate URLs: {', '.join(alts[:2])}"
+                        f"✅ [{item['name']}] Discovered alternate URL: {alts[0]}"
                     )
                 else:
                     print(f"ℹ️ [{item['name']}] No new alternate URLs found.")
             except Exception as e:
                 print(f"⚠️ Error auditing {item['name']}: {e}")
 
-    # Add results to Excel in new columns
-    print("\n✍️ Updating Excel Workbook with discovered candidates...")
+    print("\n✍️ Inserting new rows into Excel for discovered candidate URLs...")
 
-    # Set up Headers in Columns 7, 8, and 9
-    ws.cell(row=4, column=7).value = "Alternate URL Candidate 1"
-    ws.cell(row=4, column=8).value = "Alternate URL Candidate 2"
-    ws.cell(row=4, column=9).value = "Audit Status"
+    # Iterate backwards through rows to prevent row insertion index shifting
+    inserted_rows_count = 0
+    sorted_rows = sorted(audit_results.keys(), reverse=True)
 
-    updated_rows = 0
-    for row, res in audit_results.items():
+    for row_idx in sorted_rows:
+        res = audit_results[row_idx]
         alts = res.get("discovered_alts", [])
-        if alts:
-            ws.cell(row=row, column=7).value = alts[0]
-            if len(alts) > 1:
-                ws.cell(row=row, column=8).value = alts[1]
-            ws.cell(row=row, column=9).value = (
-                f"Discovered {len(alts)} Candidates"
+
+        if not alts:
+            continue
+
+        for alt_url in reversed(alts):
+            insert_pos = row_idx + 1
+            ws.insert_rows(insert_pos)
+
+            # Copy all cell values from the original parent row
+            for col_idx in range(1, ws.max_column + 1):
+                ws.cell(row=insert_pos, column=col_idx).value = ws.cell(
+                    row=row_idx, column=col_idx
+                ).value
+
+            # Update Source Name with suffix and set new Target URL in Column 3
+            orig_name = ws.cell(row=row_idx, column=2).value
+            ws.cell(row=insert_pos, column=2).value = (
+                f"{orig_name} (Alt Endpoint)"
             )
-            updated_rows += 1
-        else:
-            ws.cell(row=row, column=9).value = "Verified Original"
+            ws.cell(row=insert_pos, column=3).value = alt_url
+
+            inserted_rows_count += 1
 
     output_excel_path = excel_path.replace(".xlsx", "_Expanded.xlsx")
     wb.save(output_excel_path)
 
     print("\n" + "=" * 70)
     print("🎉 COMPREHENSIVE AUDIT COMPLETE")
-    print(
-        f"  • Total sources audited: {len(sources_to_audit)}"
-    )
-    print(
-        f"  • Sources with newly discovered URLs: {updated_rows}"
-    )
-    print(f"💾 Updated Excel saved to: '{output_excel_path}'")
+    print(f"  • Total sources audited: {len(sources_to_audit)}")
+    print(f"  • New alternate venue rows added: {inserted_rows_count}")
+    print(f"💾 Saved expanded Master Excel workbook to: '{output_excel_path}'")
     print("=" * 70)
 
 
