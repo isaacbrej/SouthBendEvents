@@ -4655,6 +4655,110 @@
   },
   {
     "id": "sbe_0359",
+    "title": "D\u00eda de los Muertos Community Ofrenda",
+    "venue": "Elkhart Public Library / Premier Arts",
+    "city": "Elkhart",
+    "category": "Nightlife & Pubs",
+    "date_raw": "2026-10-12T00:00:00-04:00",
+    "iso_start_time": "2026-10-12T00:00:00-04:00",
+    "link": "https://www.myepl.org/event/dia-de-los-muertos-community-ofrenda/2026-10-12/",
+    "scraped_at": "2026-10-16T01:16:16.939256",
+    "extraction_tier": "Tier 1 (JSON-LD)",
+    "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:D\u00eda de los Muertos Community Ofrenda\nLOCATION:Elkhart Public Library / Premier Arts\nDESCRIPTION:Source Link: https://www.myepl.org/event/dia-de-los-muertos-community-ofrenda/2026-10-12/\nDTSTART:20261012T000000Z\nDTEND:20261012T020000Z\nEND:VEVENT\nEND:VCALENDAR"
+  },
+  {
+    "id": "sbe_0360",
+    "title": "Blow Paint Monsters",
+    "venue": "Elkhart Public Library / Premier Arts",
+    "city": "Elkhart",
+    "category": "Nightlife & Pubs",
+    "date_raw": "2026-10-15T15:30:00-04:00",
+    "iso_start_time": "2026-10-15T15:30:00-04:00",
+    "link": "https://www.myepl.org/event/blow-paint-monsters/",
+    "scraped_at": "2026-10-16T01:16:16.939295",
+    "extraction_tier": "Tier 1 (JSON-LD)",
+    "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Blow Paint Monsters\nLOCATION:Elkhart Public Library / Premier Arts\nDESCRIPTION:Source Link: https://www.myepl.org/event/blow-paint-monsters/\nDTSTART:20261015T153000Z\nDTEND:20261015T173000Z\nEND:VEVENT\nEND:VCALENDAR"
+  },
+  {
+    "id": "sbe_0361",
+    "title": "Painting with Linda Pieri for Kids",
+    "venue": "Elkhart Public Library / Premier Arts",
+    "city": "Elkhart",
+    "category": "Nightlife & Pubs",
+    "date_raw": "2026-10-15T15:30:00-04:00",
+    "iso_start_time": "2026-10-15T15:30:00-04:00",
+    "link": "https://www.myepl.org/event/painting-with-linda-pieri/",
+    "scraped_at": "2026-10-16T01:16:16.939317",
+    "extraction_tier": "Tier 1 (JSON-LD)",
+    "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Painting with Linda Pieri for Kids\nLOCATION:Elkhart Public Library / Premier Arts\nDESCRIPTION:Source Link: https://www.myepl.org/event/painting-with-linda-pieri/\nDTSTART:20261015T153000Z\nDTEND:20261015T173000Z\nEND:VEVENT\nEND:VCALENDAR"
+  },
+  {
+    "id": "sbe_0362",
+    "title": "Artificial Intelligence: An Introduction",
+    "venue": "Elkhart Public Library / Premier Arts",
+    "city": "Elkhart",
+    "category": "Nightlife & Pubs",
+    "date_raw": "2026-10-15T17:30:00-04:00",
+    "iso_start_time": "2026-10-15T17:30:00-04:00",
+    "link": "https://www.myepl.org/event/artificial-intelligence-an-introduction-3/",
+    "scraped_at": "2026-10-16T01:16:16.939334",
+    "extraction_tier": "Tier 1 (JSON-LD)",
+    "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Artificial Intelligence: An Introduction\nLOCATION:Elkhart Public Library / Premier Arts\nDESCRIPTION:Source Link: https://www.myepl.org/event/artificial-intelligence-an-introduction-3/\nDTSTART:20261015T173000Z\nDTEND:20261015T193000Z\nEND:VEVENT\nEND:VCALENDAR"
+  },
+  {
+    "id": "sbe_0363",
+    "title": "Crafts at Cleveland",
+    "venue": "Elkhart Public Library / Premier Arts",
+    "city": "Elkhart",
+    "category": "Nightlife & Pubs",
+    "date_raw": "2026-10-15T17:30:00-04:00",
+    "iso_start_time": "2026-10-15T17:30:00-04:00",
+    "link": "https://www.myepl.org/event/crafts-at-cleveland-12/",
+    "scraped_at": "2026-10-16T01:16:16.939365",
+    "extraction_tier": "Tier 1 (JSON-LD)",
+    "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Crafts at Cleveland\nLOCATION:Elkhart Public Library / Premier Arts\nDESCRIPTION:Source Link: https://www.myepl.org/event/crafts-at-cleveland-12/\nDTSTART:20261015T173000Z\nDTEND:20261015T193000Z\nEND:VEVENT\nEND:VCALENDAR"
+  },
+  {
+    "id": "sbe_0364",
+    "title": "Canceled &#8211; Bilingual Storytime/Hora de Cuentos Biling\u00fces",
+    "venue": "Elkhart Public Library / Premier Arts",
+    "city": "Elkhart",
+    "category": "Nightlife & Pubs",
+    "date_raw": "2026-10-16T10:00:00-04:00",
+    "iso_start_time": "2026-10-16T10:00:00-04:00",
+    "link": "https://www.myepl.org/event/bilingual-storytime-hora-de-cuentos-billingues-2026-10-16/",
+    "scraped_at": "2026-10-16T01:16:16.939380",
+    "extraction_tier": "Tier 1 (JSON-LD)",
+    "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Canceled &#8211; Bilingual Storytime/Hora de Cuentos Biling\u00fces\nLOCATION:Elkhart Public Library / Premier Arts\nDESCRIPTION:Source Link: https://www.myepl.org/event/bilingual-storytime-hora-de-cuentos-billingues-2026-10-16/\nDTSTART:20261016T100000Z\nDTEND:20261016T120000Z\nEND:VEVENT\nEND:VCALENDAR"
+  },
+  {
+    "id": "sbe_0365",
+    "title": "Rhythm and Rhyme",
+    "venue": "Elkhart Public Library / Premier Arts",
+    "city": "Elkhart",
+    "category": "Nightlife & Pubs",
+    "date_raw": "2026-10-16T10:30:00-04:00",
+    "iso_start_time": "2026-10-16T10:30:00-04:00",
+    "link": "https://www.myepl.org/event/rhythms-and-rhymes/2026-10-16/",
+    "scraped_at": "2026-10-16T01:16:16.939396",
+    "extraction_tier": "Tier 1 (JSON-LD)",
+    "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Rhythm and Rhyme\nLOCATION:Elkhart Public Library / Premier Arts\nDESCRIPTION:Source Link: https://www.myepl.org/event/rhythms-and-rhymes/2026-10-16/\nDTSTART:20261016T103000Z\nDTEND:20261016T123000Z\nEND:VEVENT\nEND:VCALENDAR"
+  },
+  {
+    "id": "sbe_0366",
+    "title": "Ox Bow Books &#038; Boots",
+    "venue": "Elkhart Public Library / Premier Arts",
+    "city": "Elkhart",
+    "category": "Nightlife & Pubs",
+    "date_raw": "2026-10-16T13:00:00-04:00",
+    "iso_start_time": "2026-10-16T13:00:00-04:00",
+    "link": "https://www.myepl.org/event/ox-bow-books-and-boots/2026-10-16/",
+    "scraped_at": "2026-10-16T01:16:16.939427",
+    "extraction_tier": "Tier 1 (JSON-LD)",
+    "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Ox Bow Books &#038; Boots\nLOCATION:Elkhart Public Library / Premier Arts\nDESCRIPTION:Source Link: https://www.myepl.org/event/ox-bow-books-and-boots/2026-10-16/\nDTSTART:20261016T130000Z\nDTEND:20261016T150000Z\nEND:VEVENT\nEND:VCALENDAR"
+  },
+  {
+    "id": "sbe_0367",
     "title": "Skip to Content",
     "venue": "Fernwood Botanical Garden & Nature Center (Niles, MI - 20m away)",
     "city": "Niles, MI",
@@ -4667,7 +4771,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Skip to Content\nLOCATION:Fernwood Botanical Garden & Nature Center (Niles, MI - 20m away)\nDESCRIPTION:Source Link: https://www.fernwoodbotanical.org/calendar#page\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0360",
+    "id": "sbe_0368",
     "title": "Spring Garden Market",
     "venue": "Fernwood Botanical Garden & Nature Center (Niles, MI - 20m away)",
     "city": "Niles, MI",
@@ -4680,7 +4784,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Spring Garden Market\nLOCATION:Fernwood Botanical Garden & Nature Center (Niles, MI - 20m away)\nDESCRIPTION:Source Link: https://www.fernwoodbotanical.org/spring-garden-market\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0361",
+    "id": "sbe_0369",
     "title": "Holiday Market",
     "venue": "Fernwood Botanical Garden & Nature Center (Niles, MI - 20m away)",
     "city": "Niles, MI",
@@ -4693,7 +4797,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Holiday Market\nLOCATION:Fernwood Botanical Garden & Nature Center (Niles, MI - 20m away)\nDESCRIPTION:Source Link: https://www.fernwoodbotanical.org/holiday-market\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0362",
+    "id": "sbe_0370",
     "title": "Downtown Goshen Events",
     "venue": "Good of Goshen / Downtown Goshen",
     "city": "Goshen",
@@ -4706,7 +4810,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Downtown Goshen Events\nLOCATION:Good of Goshen / Downtown Goshen\nDESCRIPTION:Source Link: https://goodofgoshen.com/project/10-reasons-goshen-is-indianas-community-of-the-year/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0363",
+    "id": "sbe_0371",
     "title": "Common Council Budget & Finance Committee meeting Notice Regarding Mishawaka Utilities Budget",
     "venue": "Mishawaka Amphitheater / Beutter Park",
     "city": "Mishawaka",
@@ -4719,7 +4823,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Common Council Budget & Finance Committee meeting Notice Regarding Mishawaka Utilities Budget\nLOCATION:Mishawaka Amphitheater / Beutter Park\nDESCRIPTION:Source Link: https://mishawaka.in.gov/news/common-council-budget-finance-committee-meeting-notice-regarding-mishawaka-utilities-budget/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0364",
+    "id": "sbe_0372",
     "title": "MISHAWAKA\u00a0 COMMUNICATOR  COMMUNITY EVENTS AND SEASONAL SERVICES \u2013 OCTOBER  2026",
     "venue": "Mishawaka Amphitheater / Beutter Park",
     "city": "Mishawaka",
@@ -4732,7 +4836,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:MISHAWAKA\u00a0 COMMUNICATOR  COMMUNITY EVENTS AND SEASONAL SERVICES \u2013 OCTOBER  2026\nLOCATION:Mishawaka Amphitheater / Beutter Park\nDESCRIPTION:Source Link: https://mishawaka.in.gov/news/mishawaka-communicator-community-events-and-seasonal-services-october-2026/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0365",
+    "id": "sbe_0373",
     "title": "Mishawaka October Communicator \u2013 MFD, The Mishawaka Value",
     "venue": "Mishawaka Amphitheater / Beutter Park",
     "city": "Mishawaka",
@@ -4745,7 +4849,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Mishawaka October Communicator \u2013 MFD, The Mishawaka Value\nLOCATION:Mishawaka Amphitheater / Beutter Park\nDESCRIPTION:Source Link: https://mishawaka.in.gov/news/mishawaka-october-communicator-mfd-the-mishawaka-value/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0366",
+    "id": "sbe_0374",
     "title": "Boo\u2019s & Brews Haunted Brewfest",
     "venue": "Mishawaka Amphitheater / Beutter Park",
     "city": "Mishawaka",
@@ -4758,7 +4862,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Boo\u2019s & Brews Haunted Brewfest\nLOCATION:Mishawaka Amphitheater / Beutter Park\nDESCRIPTION:Source Link: https://mishawaka.in.gov/event/boos-brews-haunted-brewfest/\nDTSTART:20261014T190000Z\nDTEND:20261014T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0367",
+    "id": "sbe_0375",
     "title": "Common Council Meeting",
     "venue": "Mishawaka Amphitheater / Beutter Park",
     "city": "Mishawaka",
@@ -4771,7 +4875,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Common Council Meeting\nLOCATION:Mishawaka Amphitheater / Beutter Park\nDESCRIPTION:Source Link: https://mishawaka.in.gov/series/common-council-meeting-4/\nDTSTART:20261014T174500Z\nDTEND:20261014T194500Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0368",
+    "id": "sbe_0376",
     "title": "Board of Public Works Meeting.",
     "venue": "Mishawaka Amphitheater / Beutter Park",
     "city": "Mishawaka",
@@ -4784,7 +4888,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Board of Public Works Meeting.\nLOCATION:Mishawaka Amphitheater / Beutter Park\nDESCRIPTION:Source Link: https://mishawaka.in.gov/event/board-of-public-works-meeting-2/2026-10-20/\nDTSTART:20261014T100000Z\nDTEND:20261014T120000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0369",
+    "id": "sbe_0377",
     "title": "South Bend Beginner Speed Dating on Zoom",
     "venue": "Meetup.com (South Bend Region)",
     "city": "South Bend",
@@ -4797,7 +4901,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:South Bend Beginner Speed Dating on Zoom\nLOCATION:Meetup.com (South Bend Region)\nDESCRIPTION:Source Link: https://www.meetup.com/nihongo-friends-casual-chats-and-socials/events/316969488/\nDTSTART:20261018T220000Z\nDTEND:20261019T000000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0370",
+    "id": "sbe_0378",
     "title": "South Bend Claude Workshop: Real Results Fast",
     "venue": "Meetup.com (South Bend Region)",
     "city": "South Bend",
@@ -4810,7 +4914,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:South Bend Claude Workshop: Real Results Fast\nLOCATION:Meetup.com (South Bend Region)\nDESCRIPTION:Source Link: https://www.meetup.com/hula-basics-and-island-social-gatherings/events/316969252/\nDTSTART:20261019T001500Z\nDTEND:20261019T021500Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0371",
+    "id": "sbe_0379",
     "title": "BurbSec Southeast - Sponsors Welcome",
     "venue": "Meetup.com (South Bend Region)",
     "city": "South Bend",
@@ -4823,7 +4927,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:BurbSec Southeast - Sponsors Welcome\nLOCATION:Meetup.com (South Bend Region)\nDESCRIPTION:Source Link: https://www.meetup.com/burbsec/events/316614477/\nDTSTART:20261112T230000Z\nDTEND:20261113T010000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0372",
+    "id": "sbe_0380",
     "title": "South Bend Your Local Gay Verified Community",
     "venue": "Meetup.com (South Bend Region)",
     "city": "South Bend",
@@ -4836,7 +4940,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:South Bend Your Local Gay Verified Community\nLOCATION:Meetup.com (South Bend Region)\nDESCRIPTION:Source Link: https://www.meetup.com/mana-tap-social-magic-gathering-club/events/316969283/\nDTSTART:20261101T220000Z\nDTEND:20261102T000000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0373",
+    "id": "sbe_0381",
     "title": "Women's Entrepreneur Summit: Tuesdays at the Table -Create the Experience",
     "venue": "Meetup.com (South Bend Region)",
     "city": "South Bend",
@@ -4849,7 +4953,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Women's Entrepreneur Summit: Tuesdays at the Table -Create the Experience\nLOCATION:Meetup.com (South Bend Region)\nDESCRIPTION:Source Link: https://www.meetup.com/womenentrepreneurbossbabes/events/316724649/\nDTSTART:20261020T213000Z\nDTEND:20261020T233000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0374",
+    "id": "sbe_0382",
     "title": "Atheists at The Well",
     "venue": "Meetup.com (South Bend Region)",
     "city": "South Bend",
@@ -4862,7 +4966,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Atheists at The Well\nLOCATION:Meetup.com (South Bend Region)\nDESCRIPTION:Source Link: https://www.meetup.com/northern-indiana-atheists/events/316984211/\nDTSTART:20261103T230000Z\nDTEND:20261104T010000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0375",
+    "id": "sbe_0383",
     "title": "Notre Dame Fighting Irish Hockey vs. Western Michigan Broncos \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4875,7 +4979,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Western Michigan Broncos \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a788dc0-0d6e-4bf2-a635-c5ac5ce47333\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0376",
+    "id": "sbe_0384",
     "title": "Outlander In Concert \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4888,7 +4992,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Outlander In Concert \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a3d62be-4dd0-4a23-b5b0-e2a516f53af0\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0377",
+    "id": "sbe_0385",
     "title": "Notre Dame Fighting Irish Hockey vs. Merrimack Warriors \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4901,7 +5005,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Merrimack Warriors \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a5946a8-2518-4da7-b593-13c253ea4b89\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0378",
+    "id": "sbe_0386",
     "title": "How The Grinch Stole Christmas \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4914,7 +5018,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:How The Grinch Stole Christmas \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a3e84c8-7134-42a6-9da8-8a3672200545\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0379",
+    "id": "sbe_0387",
     "title": "Notre Dame Fighting Irish Hockey vs. Michigan State Spartans \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4927,7 +5031,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Michigan State Spartans \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6ac300e2-1d04-473f-ab38-fb45156d5b73\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0380",
+    "id": "sbe_0388",
     "title": "Girls Night! Pray. Laugh. Repeat. - Chonda Pierce, June Bug & Karyn Williams \u2014 Christian Center Church Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4940,7 +5044,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Girls Night! Pray. Laugh. Repeat. - Chonda Pierce, June Bug & Karyn Williams \u2014 Christian Center Church Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6ac3015a-d838-4628-a0dc-140e8983f0ee\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0381",
+    "id": "sbe_0389",
     "title": "United European Ballet Company: Cinderella \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4953,7 +5057,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:United European Ballet Company: Cinderella \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a7d894e-ab9a-498e-a6c4-02e9da1ec404\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0382",
+    "id": "sbe_0390",
     "title": "Notre Dame Fighting Irish Hockey vs. Bowling Green Falcons \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4966,7 +5070,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Bowling Green Falcons \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a5db35d-13ca-47c2-b33a-1377c21bf214\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0383",
+    "id": "sbe_0391",
     "title": "Notre Dame Fighting Irish Hockey vs. Boston College Eagles \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4979,7 +5083,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Boston College Eagles \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a5dec0e-2df5-470e-8dee-4a968fb680cc\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0384",
+    "id": "sbe_0392",
     "title": "Notre Dame Fighting Irish Hockey vs. Minnesota Golden Gophers \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -4992,7 +5096,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Minnesota Golden Gophers \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6ac54164-5b59-4c38-ac47-1b54a9a3136a\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0385",
+    "id": "sbe_0393",
     "title": "The Bodyguard - The Musical \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5005,7 +5109,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Bodyguard - The Musical \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a5ed70c-fd71-465c-9a05-f9e30c5b6535\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0386",
+    "id": "sbe_0394",
     "title": "Miracle on 34th Street \u2014 Wilson Auditorium at South Bend Civic Theatre Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5018,7 +5122,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Miracle on 34th Street \u2014 Wilson Auditorium at South Bend Civic Theatre Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6aa0e7e4-9f15-4236-ad4e-dea69fcab158\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0387",
+    "id": "sbe_0395",
     "title": "The Prophecy Show - Trans-Siberian Orchestra Tribute \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5031,7 +5135,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Prophecy Show - Trans-Siberian Orchestra Tribute \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a82b2dc-4376-448e-aa6d-60669559dbcd\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0388",
+    "id": "sbe_0396",
     "title": "South Bend Symphony Orchestra: Holiday Pops \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5044,7 +5148,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:South Bend Symphony Orchestra: Holiday Pops \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a835de0-64cf-44d4-9bbb-ce3c399df119\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0389",
+    "id": "sbe_0397",
     "title": "Notre Dame Fighting Irish Hockey vs. Stonehill Skyhawks \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5057,7 +5161,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Stonehill Skyhawks \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a626af1-f2d8-46f0-aafd-d72b577b16f5\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0390",
+    "id": "sbe_0398",
     "title": "Notre Dame Fighting Irish Hockey vs. Michigan Wolverines \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5070,7 +5174,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Michigan Wolverines \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6ab85dd9-075a-4cf2-b99e-a48e9efab6ba\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0391",
+    "id": "sbe_0399",
     "title": "Willi Carlisle \u2014 Stockroom East Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5083,7 +5187,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Willi Carlisle \u2014 Stockroom East Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6acb22b6-827b-4949-8307-3408d42959ff\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0392",
+    "id": "sbe_0400",
     "title": "Notre Dame Fighting Irish Hockey vs. Penn State Nittany Lions Hockey \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5096,7 +5200,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Penn State Nittany Lions Hockey \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6ab8e4ad-6263-4b40-91ba-94bcd30c16db\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0393",
+    "id": "sbe_0401",
     "title": "Notre Dame Fighting Irish Hockey vs. Ohio State Buckeyes \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5109,7 +5213,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Ohio State Buckeyes \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6ab91f50-159b-46a6-860a-a8b82e7aea68\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0394",
+    "id": "sbe_0402",
     "title": "A Beautiful Noise - The Neil Diamond Musical \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5122,7 +5226,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:A Beautiful Noise - The Neil Diamond Musical \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a421358-3bcf-4b9c-8cf7-9887dcd94d4d\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0395",
+    "id": "sbe_0403",
     "title": "South Bend Symphony Orchestra: Hollywood's Greatest Scores \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5135,7 +5239,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:South Bend Symphony Orchestra: Hollywood's Greatest Scores \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a63fdaa-36b2-4710-af37-bb52ffb931d5\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0396",
+    "id": "sbe_0404",
     "title": "South Bend Symphony Orchestra: Pictures at an Exhibition \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5148,7 +5252,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:South Bend Symphony Orchestra: Pictures at an Exhibition \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a64a855-c32c-4665-a309-10e5ebc5b481\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0397",
+    "id": "sbe_0405",
     "title": "Notre Dame Fighting Irish Hockey vs. Wisconsin Badgers \u2014 Compton Family Ice Arena Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5161,7 +5265,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Notre Dame Fighting Irish Hockey vs. Wisconsin Badgers \u2014 Compton Family Ice Arena Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6aba1ade-2b9f-4f51-93cb-a34fe0ee4dee\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0398",
+    "id": "sbe_0406",
     "title": "South Bend Symphony Orchestra: Mahler's Symphony No. 2 \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5174,7 +5278,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:South Bend Symphony Orchestra: Mahler's Symphony No. 2 \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a6625a1-e792-40ec-9528-61d18786953c\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0399",
+    "id": "sbe_0407",
     "title": "The Book Of Mormon \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5187,7 +5291,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Book Of Mormon \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a435a47-568e-4b67-9bba-3cdbaa19f52b\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0400",
+    "id": "sbe_0408",
     "title": "Six The Musical \u2014 Morris Performing Arts Center Tickets",
     "venue": "PromoTix (South Bend Region)",
     "city": "South Bend",
@@ -5200,7 +5304,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Six The Musical \u2014 Morris Performing Arts Center Tickets\nLOCATION:PromoTix (South Bend Region)\nDESCRIPTION:Source Link: https://www.promotix.com/event-discovery/l/6a439c6c-c37e-4205-b667-a7f0a925b672\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0401",
+    "id": "sbe_0409",
     "title": "VIEW MORE",
     "venue": "University Park Mall Community Events",
     "city": "South Bend",
@@ -5213,7 +5317,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:VIEW MORE\nLOCATION:University Park Mall Community Events\nDESCRIPTION:Source Link: https://plus.simon.com/account/limited-time-offers/192?utm_source=SIMON&utm_medium=CenterPage_SimonPlusWidget&utm_campaign=SIMON_CenterPage_LimitedTimeOffer_SimonPlus&source=malls&mallid=192\nDTSTART:20260814T170000Z\nDTEND:20260814T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0402",
+    "id": "sbe_0410",
     "title": "Leasing",
     "venue": "University Park Mall Community Events",
     "city": "South Bend",
@@ -5226,7 +5330,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Leasing\nLOCATION:University Park Mall Community Events\nDESCRIPTION:Source Link: https://business.simon.com\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0403",
+    "id": "sbe_0411",
     "title": "Advertising",
     "venue": "University Park Mall Community Events",
     "city": "South Bend",
@@ -5239,7 +5343,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Advertising\nLOCATION:University Park Mall Community Events\nDESCRIPTION:Source Link: https://business.simon.com/media-experiences-overview\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0404",
+    "id": "sbe_0412",
     "title": "Portfolio",
     "venue": "University Park Mall Community Events",
     "city": "South Bend",
@@ -5252,7 +5356,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Portfolio\nLOCATION:University Park Mall Community Events\nDESCRIPTION:Source Link: https://business.simon.com/search\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0405",
+    "id": "sbe_0413",
     "title": "Media | Experiences",
     "venue": "University Park Mall Community Events",
     "city": "South Bend",
@@ -5265,7 +5369,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Media | Experiences\nLOCATION:University Park Mall Community Events\nDESCRIPTION:Source Link: https://business.simon.com/media-experiences-overview\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0406",
+    "id": "sbe_0414",
     "title": "Retailer Marketing",
     "venue": "University Park Mall Community Events",
     "city": "South Bend",
@@ -5278,7 +5382,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Retailer Marketing\nLOCATION:University Park Mall Community Events\nDESCRIPTION:Source Link: https://business.simon.com/retailer-marketing\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0407",
+    "id": "sbe_0415",
     "title": "Innovation",
     "venue": "University Park Mall Community Events",
     "city": "South Bend",
@@ -5291,7 +5395,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Innovation\nLOCATION:University Park Mall Community Events\nDESCRIPTION:Source Link: https://business.simon.com/simon-innovation-group\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0408",
+    "id": "sbe_0416",
     "title": "Terms of Use",
     "venue": "University Park Mall Community Events",
     "city": "South Bend",
@@ -5304,7 +5408,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Terms of Use\nLOCATION:University Park Mall Community Events\nDESCRIPTION:Source Link: https://www.simon.com/legal\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0409",
+    "id": "sbe_0417",
     "title": "CAMPUS LIFE",
     "venue": "Holy Cross College Events",
     "city": "South Bend",
@@ -5317,7 +5421,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:CAMPUS LIFE\nLOCATION:Holy Cross College Events\nDESCRIPTION:Source Link: https://www.hcc-nd.edu/campus-life/\nDTSTART:20260414T170000Z\nDTEND:20260414T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0410",
+    "id": "sbe_0418",
     "title": "Faith with Campus Ministry",
     "venue": "Holy Cross College Events",
     "city": "South Bend",
@@ -5330,7 +5434,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Faith with Campus Ministry\nLOCATION:Holy Cross College Events\nDESCRIPTION:Source Link: https://www.hcc-nd.edu/faith-with-campus-ministry/\nDTSTART:20260414T170000Z\nDTEND:20260414T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0411",
+    "id": "sbe_0419",
     "title": "THEHOLY CROSS WAY",
     "venue": "Holy Cross College Events",
     "city": "South Bend",
@@ -5343,7 +5447,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:THEHOLY CROSS WAY\nLOCATION:Holy Cross College Events\nDESCRIPTION:Source Link: https://www.hcc-nd.edu/leading-the-holy-cross-way/\nDTSTART:20260914T170000Z\nDTEND:20260914T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0412",
+    "id": "sbe_0420",
     "title": "The star-studded speaker series starts Sept. 11 at Holy Cross.",
     "venue": "Holy Cross College Events",
     "city": "South Bend",
@@ -5356,7 +5460,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The star-studded speaker series starts Sept. 11 at Holy Cross.\nLOCATION:Holy Cross College Events\nDESCRIPTION:Source Link: https://www.hcc-nd.edu/leading-the-holy-cross-way/\nDTSTART:20260914T170000Z\nDTEND:20260914T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0413",
+    "id": "sbe_0421",
     "title": "Skip To Main Content",
     "venue": "Notre Dame Athletics Calendar",
     "city": "South Bend",
@@ -5369,7 +5473,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Skip To Main Content\nLOCATION:Notre Dame Athletics Calendar\nDESCRIPTION:Source Link: https://fightingirish.com#main-content\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0414",
+    "id": "sbe_0422",
     "title": "Full Schedule",
     "venue": "Notre Dame Athletics Calendar",
     "city": "South Bend",
@@ -5382,7 +5486,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Full Schedule\nLOCATION:Notre Dame Athletics Calendar\nDESCRIPTION:Source Link: https://fightingirish.com/all-sports-schedule\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0415",
+    "id": "sbe_0423",
     "title": "Football",
     "venue": "Notre Dame Athletics Calendar",
     "city": "South Bend",
@@ -5395,7 +5499,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Football\nLOCATION:Notre Dame Athletics Calendar\nDESCRIPTION:Source Link: https://fightingirish.com/sports/football\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0416",
+    "id": "sbe_0424",
     "title": "Moore Named Lott IMPACT Trophy Quarterfinalist",
     "venue": "Notre Dame Athletics Calendar",
     "city": "South Bend",
@@ -5408,7 +5512,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Moore Named Lott IMPACT Trophy Quarterfinalist\nLOCATION:Notre Dame Athletics Calendar\nDESCRIPTION:Source Link: https://fightingirish.com/news/2026/10/15/moore-named-lott-impact-trophy-quarterfinalist\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0417",
+    "id": "sbe_0425",
     "title": "Moore, Traore Selected To AP Midseason All-America Teams",
     "venue": "Notre Dame Athletics Calendar",
     "city": "South Bend",
@@ -5421,7 +5525,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Moore, Traore Selected To AP Midseason All-America Teams\nLOCATION:Notre Dame Athletics Calendar\nDESCRIPTION:Source Link: https://fightingirish.com/news/2026/10/15/moore-traore-selected-to-ap-midseason-all-america-teams\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0418",
+    "id": "sbe_0426",
     "title": "Carr, Faison, Moore Tabbed To Pony Express Award Watch List",
     "venue": "Notre Dame Athletics Calendar",
     "city": "South Bend",
@@ -5434,7 +5538,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Carr, Faison, Moore Tabbed To Pony Express Award Watch List\nLOCATION:Notre Dame Athletics Calendar\nDESCRIPTION:Source Link: https://fightingirish.com/news/2026/10/15/carr-faison-moore-tabbed-to-pony-express-award-watch-list\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0419",
+    "id": "sbe_0427",
     "title": "Volleyball",
     "venue": "Notre Dame Athletics Calendar",
     "city": "South Bend",
@@ -5447,7 +5551,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Volleyball\nLOCATION:Notre Dame Athletics Calendar\nDESCRIPTION:Source Link: https://fightingirish.com/sports/wvball\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0420",
+    "id": "sbe_0428",
     "title": "Irish To Host #23 North Carolina, Duke",
     "venue": "Notre Dame Athletics Calendar",
     "city": "South Bend",
@@ -5460,7 +5564,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Irish To Host #23 North Carolina, Duke\nLOCATION:Notre Dame Athletics Calendar\nDESCRIPTION:Source Link: https://fightingirish.com/news/2026/10/15/irish-to-host-for-23-north-carolina-duke\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0421",
+    "id": "sbe_0429",
     "title": "Samurai Rebellion (1967)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5473,7 +5577,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Samurai Rebellion (1967)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20140/samurai-rebellion-1967\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0422",
+    "id": "sbe_0430",
     "title": "VIEW DETAILS",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5486,7 +5590,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:VIEW DETAILS\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20140/samurai-rebellion-1967\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0423",
+    "id": "sbe_0431",
     "title": "National Theatre Live: Frankenstein (2011)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5499,7 +5603,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:National Theatre Live: Frankenstein (2011)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20188/national-theatre-live-frankenstein-2011\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0424",
+    "id": "sbe_0432",
     "title": "Macbeth (Verdi)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5512,7 +5616,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Macbeth (Verdi)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19723/macbeth-verdi\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0425",
+    "id": "sbe_0433",
     "title": "Don\u2019t Look Under the Bed (1999)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5525,7 +5629,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Don\u2019t Look Under the Bed (1999)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19826/dont-look-under-the-bed-1999\nDTSTART:20261018T170000Z\nDTEND:20261018T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0426",
+    "id": "sbe_0434",
     "title": "Every Contact Leaves a Trace (2026)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5538,7 +5642,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Every Contact Leaves a Trace (2026)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20194/every-contact-leaves-a-trace-2026\nDTSTART:20261018T170000Z\nDTEND:20261018T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0427",
+    "id": "sbe_0435",
     "title": "Lord of the Rings: The Fellowship of the Ring - Extended Edition (2001)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5551,7 +5655,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Lord of the Rings: The Fellowship of the Ring - Extended Edition (2001)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20167/lord-of-the-rings-the-fellowship-of-the-ring-extended-edition-2001\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0428",
+    "id": "sbe_0436",
     "title": "Lord of the Rings: The Two Towers - Extended Edition (2002)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5564,7 +5668,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Lord of the Rings: The Two Towers - Extended Edition (2002)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20170/lord-of-the-rings-the-two-towers-extended-edition-2002\nDTSTART:20261016T170000Z\nDTEND:20261016T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0429",
+    "id": "sbe_0437",
     "title": "Psycho (1960)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5577,7 +5681,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Psycho (1960)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20172/psycho-1960\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0430",
+    "id": "sbe_0438",
     "title": "Lord of the Rings: The Return of the King - Extended Edition (2003)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5590,7 +5694,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Lord of the Rings: The Return of the King - Extended Edition (2003)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20175/lord-of-the-rings-the-return-of-the-king-extended-edition-2003\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0431",
+    "id": "sbe_0439",
     "title": "The Nightmare Before Christmas (1993)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5603,7 +5707,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Nightmare Before Christmas (1993)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19828/the-nightmare-before-christmas-1993\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0432",
+    "id": "sbe_0440",
     "title": "The Seasons of Vivaldi + Piazzolla",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5616,7 +5720,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Seasons of Vivaldi + Piazzolla\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19579/the-seasons-of-vivaldi-piazzolla\nDTSTART:20261018T170000Z\nDTEND:20261018T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0433",
+    "id": "sbe_0441",
     "title": "Lake Mungo (2008)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5629,7 +5733,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Lake Mungo (2008)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20196/lake-mungo-2008\nDTSTART:20261018T170000Z\nDTEND:20261018T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0434",
+    "id": "sbe_0442",
     "title": "No Country for Old Men (2007)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5642,7 +5746,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:No Country for Old Men (2007)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19892/no-country-for-old-men-2007\nDTSTART:20261020T170000Z\nDTEND:20261020T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0435",
+    "id": "sbe_0443",
     "title": "Fiume o Morte! (2025)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5655,7 +5759,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Fiume o Morte! (2025)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20200/fiume-o-morte-2025\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0436",
+    "id": "sbe_0444",
     "title": "Chulas Fronteras (Beautiful Borderlands) (1976)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5668,7 +5772,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Chulas Fronteras (Beautiful Borderlands) (1976)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20090/chulas-fronteras-beautiful-borderlands-1976\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0437",
+    "id": "sbe_0445",
     "title": "FPA presents C.S. Lewis' The Screwtape Letters",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5681,7 +5785,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:FPA presents C.S. Lewis' The Screwtape Letters\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19715/fpa-presents-cs-lewis-the-screwtape-letters\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0438",
+    "id": "sbe_0446",
     "title": "Sleepaway Camp (1983)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5694,7 +5798,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Sleepaway Camp (1983)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20204/sleepaway-camp-1983\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0439",
+    "id": "sbe_0447",
     "title": "Camp Cinewhack Double Feature!",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5707,7 +5811,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Camp Cinewhack Double Feature!\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20208/camp-cinewhack-double-feature\nDTSTART:20261016T170000Z\nDTEND:20261016T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0440",
+    "id": "sbe_0448",
     "title": "ND Chorale and Chamber Orchestra: English Vistas",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5720,7 +5824,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:ND Chorale and Chamber Orchestra: English Vistas\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20071/nd-chorale-and-chamber-orchestra-english-vistas\nDTSTART:20261016T170000Z\nDTEND:20261016T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0441",
+    "id": "sbe_0449",
     "title": "The Burning (1981)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5733,7 +5837,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Burning (1981)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20212/the-burning-1981\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0442",
+    "id": "sbe_0450",
     "title": "The Final Girls (2015)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5746,7 +5850,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Final Girls (2015)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20216/the-final-girls-2015\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0443",
+    "id": "sbe_0451",
     "title": "Camp Cinewhack Double Feature: Part 2!",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5759,7 +5863,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Camp Cinewhack Double Feature: Part 2!\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20220/camp-cinewhack-double-feature-part-2\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0444",
+    "id": "sbe_0452",
     "title": "Coco (2017)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5772,7 +5876,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Coco (2017)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19830/coco-2017\nDTSTART:20261018T170000Z\nDTEND:20261018T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0445",
+    "id": "sbe_0453",
     "title": "Marya Fancey, organ",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5785,7 +5889,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Marya Fancey, organ\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19635/marya-fancey-organ\nDTSTART:20260314T170000Z\nDTEND:20260314T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0446",
+    "id": "sbe_0454",
     "title": "Hell's Highway: The True Story of Highway Safety Films (2003)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5798,7 +5902,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Hell's Highway: The True Story of Highway Safety Films (2003)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20224/hells-highway-the-true-story-of-highway-safety-films-2003\nDTSTART:20261018T170000Z\nDTEND:20261018T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0447",
+    "id": "sbe_0455",
     "title": "Burn After Reading (2008)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5811,7 +5915,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Burn After Reading (2008)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/19896/burn-after-reading-2008\nDTSTART:20261020T170000Z\nDTEND:20261020T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0448",
+    "id": "sbe_0456",
     "title": "Young Mothers (2025)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5824,7 +5928,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Young Mothers (2025)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20228/young-mothers-2025\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0449",
+    "id": "sbe_0457",
     "title": "Vox Lumina Concert: Schicksalslied-Song of Destiny",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5837,7 +5941,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Vox Lumina Concert: Schicksalslied-Song of Destiny\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20258/vox-lumina-concert-schicksalslied-song-of-destiny\nDTSTART:20261014T170000Z\nDTEND:20261014T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0450",
+    "id": "sbe_0458",
     "title": "Canoa: Memoria de un Hecho Vergonzoso (Canoa: A Shameful Memory) (1976)",
     "venue": "Notre Dame DeBartolo Performing Arts Center (DPAC)",
     "city": "South Bend",
@@ -5850,7 +5954,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Canoa: Memoria de un Hecho Vergonzoso (Canoa: A Shameful Memory) (1976)\nLOCATION:Notre Dame DeBartolo Performing Arts Center (DPAC)\nDESCRIPTION:Source Link: https://performingarts.nd.edu/event/20094/canoa-memoria-de-un-hecho-vergonzoso-canoa-a-shameful-memory-1976\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0451",
+    "id": "sbe_0459",
     "title": "Mass in the Mary, Queen of Families Chapel",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5863,7 +5967,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Mass in the Mary, Queen of Families Chapel\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/15/mass-in-the-em-mary-queen-of-families-chapel-em-15/\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0452",
+    "id": "sbe_0460",
     "title": "Lecture: \"The Information State\"",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5876,7 +5980,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Lecture: \"The Information State\"\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/15/ehum-speaker-jacob-siegel/\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0453",
+    "id": "sbe_0461",
     "title": "Film: \"La Mujer Murcielago\" (The Batwoman) (1968)",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5889,7 +5993,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Film: \"La Mujer Murcielago\" (The Batwoman) (1968)\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/15/la-mujer-murcielago-the-batwoman-1968/\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0454",
+    "id": "sbe_0462",
     "title": "Concordia Vocal Ensemble Concert:Chiaroscuro",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5902,7 +6006,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Concordia Vocal Ensemble Concert:Chiaroscuro\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/15/concordia-vocal-ensemble-concert-2/\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0455",
+    "id": "sbe_0463",
     "title": "Film: \"Samurai Rebellion\" (1967)",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5915,7 +6019,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Film: \"Samurai Rebellion\" (1967)\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/15/samurai-rebellion-1967/\nDTSTART:20261015T170000Z\nDTEND:20261015T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0456",
+    "id": "sbe_0464",
     "title": "National Theatre Live: \"Frankenstein\" (2011)",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5928,7 +6032,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:National Theatre Live: \"Frankenstein\" (2011)\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/16/national-theatre-live-frankenstein-2011/\nDTSTART:20261016T170000Z\nDTEND:20261016T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0457",
+    "id": "sbe_0465",
     "title": "Midterm break (fall break)",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5941,7 +6045,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Midterm break (fall break)\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/17/midterm-break-fall-break/\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0458",
+    "id": "sbe_0466",
     "title": "The Met Opera Live in HD: \"Macbeth\" (Verdi)",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5954,7 +6058,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Met Opera Live in HD: \"Macbeth\" (Verdi)\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/17/the-met-opera-live-in-hd-macbeth-verdi/\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0459",
+    "id": "sbe_0467",
     "title": "Artful Storytime",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5967,7 +6071,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Artful Storytime\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/17/artful-storytime-29/\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0460",
+    "id": "sbe_0468",
     "title": "Art on the Aux with DJ PB",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5980,7 +6084,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Art on the Aux with DJ PB\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/17/art-on-the-aux-with-dj-pb-12/\nDTSTART:20261017T170000Z\nDTEND:20261017T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0461",
+    "id": "sbe_0469",
     "title": "Film: \"Don\u2019t Look Under the Bed\" (1999)",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -5993,7 +6097,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Film: \"Don\u2019t Look Under the Bed\" (1999)\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/18/dont-look-under-the-bed-1999/\nDTSTART:20261018T170000Z\nDTEND:20261018T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0462",
+    "id": "sbe_0470",
     "title": "Film: \"Every Contact Leaves a Trace\" (2026)",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -6006,7 +6110,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Film: \"Every Contact Leaves a Trace\" (2026)\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/18/every-contact-leaves-a-trace-2026/\nDTSTART:20261018T170000Z\nDTEND:20261018T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0463",
+    "id": "sbe_0471",
     "title": "Conversations That Matter: \"Responses to Life-Limiting Prenatal Diagnoses\"",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -6019,7 +6123,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Conversations That Matter: \"Responses to Life-Limiting Prenatal Diagnoses\"\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/19/conversations-that-matter-dying-well-responses-to-life-limiting-prenatal-diagnoses/\nDTSTART:20261019T170000Z\nDTEND:20261019T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0464",
+    "id": "sbe_0472",
     "title": "Supplier Expo",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -6032,7 +6136,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Supplier Expo\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/21/supplier-expo/\nDTSTART:20261021T170000Z\nDTEND:20261021T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0465",
+    "id": "sbe_0473",
     "title": "The Sixth Annual Mathews Byzantine Lecture: \"Defining Iconoclasm\"",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -6045,7 +6149,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:The Sixth Annual Mathews Byzantine Lecture: \"Defining Iconoclasm\"\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/22/the-sixth-annual-mathews-byzantine-lecture-with-prof-juan-signes-codoner-complutense-university-of-madrid-defining-iconoclasm/\nDTSTART:20261022T170000Z\nDTEND:20261022T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0466",
+    "id": "sbe_0474",
     "title": "Film \u2014 \"Lord of the Rings: The Fellowship of the Ring, Extended Edition\" (2001)",
     "venue": "Notre Dame Master Events Calendar",
     "city": "South Bend",
@@ -6058,7 +6162,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Film \u2014 \"Lord of the Rings: The Fellowship of the Ring, Extended Edition\" (2001)\nLOCATION:Notre Dame Master Events Calendar\nDESCRIPTION:Source Link: https://events.nd.edu/events/2026/10/22/lord-of-the-rings-the-fellowship-of-the-ring-extended-edition-2001/\nDTSTART:20261022T170000Z\nDTEND:20261022T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0467",
+    "id": "sbe_0475",
     "title": "HalloweenFest",
     "venue": "Notre Dame Student Activities (SAO)",
     "city": "South Bend",
@@ -6071,7 +6175,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:HalloweenFest\nLOCATION:Notre Dame Student Activities (SAO)\nDESCRIPTION:Source Link: https://sao.nd.edu/events/2026/10/31/halloweenfest/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0468",
+    "id": "sbe_0476",
     "title": "Skate Night",
     "venue": "Notre Dame Student Activities (SAO)",
     "city": "South Bend",
@@ -6084,7 +6188,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Skate Night\nLOCATION:Notre Dame Student Activities (SAO)\nDESCRIPTION:Source Link: https://sao.nd.edu/events/2026/11/06/race/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0469",
+    "id": "sbe_0477",
     "title": "Shamrock Kickoff - Miami",
     "venue": "Notre Dame Student Activities (SAO)",
     "city": "South Bend",
@@ -6097,7 +6201,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Shamrock Kickoff - Miami\nLOCATION:Notre Dame Student Activities (SAO)\nDESCRIPTION:Source Link: https://sao.nd.edu/events/2026/11/07/shamrock-kick-off-miami/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0470",
+    "id": "sbe_0478",
     "title": "Rootin' Tootin' Good Time!",
     "venue": "Notre Dame Student Activities (SAO)",
     "city": "South Bend",
@@ -6110,7 +6214,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Rootin' Tootin' Good Time!\nLOCATION:Notre Dame Student Activities (SAO)\nDESCRIPTION:Source Link: https://sao.nd.edu/events/2026/11/13/race-night/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0471",
+    "id": "sbe_0479",
     "title": "Shamrock Kickoff - Boston College",
     "venue": "Notre Dame Student Activities (SAO)",
     "city": "South Bend",
@@ -6123,7 +6227,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Shamrock Kickoff - Boston College\nLOCATION:Notre Dame Student Activities (SAO)\nDESCRIPTION:Source Link: https://sao.nd.edu/events/2026/11/14/shamrock-kick-off-boston-college/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0472",
+    "id": "sbe_0480",
     "title": "Lego Night",
     "venue": "Notre Dame Student Activities (SAO)",
     "city": "South Bend",
@@ -6136,7 +6240,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Lego Night\nLOCATION:Notre Dame Student Activities (SAO)\nDESCRIPTION:Source Link: https://sao.nd.edu/events/2026/11/20/lego-night-1/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0473",
+    "id": "sbe_0481",
     "title": "Shamrock Kickoff - SMU",
     "venue": "Notre Dame Student Activities (SAO)",
     "city": "South Bend",
@@ -6149,7 +6253,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Shamrock Kickoff - SMU\nLOCATION:Notre Dame Student Activities (SAO)\nDESCRIPTION:Source Link: https://sao.nd.edu/events/2026/11/21/shamrock-kickoff-smu/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0474",
+    "id": "sbe_0482",
     "title": "Shamrock Fest",
     "venue": "Notre Dame Student Activities (SAO)",
     "city": "South Bend",
@@ -6162,7 +6266,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Shamrock Fest\nLOCATION:Notre Dame Student Activities (SAO)\nDESCRIPTION:Source Link: https://sao.nd.edu/events/2027/03/17/shamrock-fest/\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0475",
+    "id": "sbe_0483",
     "title": "Sep10 - Nov 12Spark 2026The SPARK Business Accelerator program is excited to offer in Fall of 2026 an accelerated ten-week program. All classes will be in person on the campus of Saint Mary\u2019s College.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6175,7 +6279,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Sep10 - Nov 12Spark 2026The SPARK Business Accelerator program is excited to offer in Fall of 2026 an accelerated ten-week program. All classes will be in person on the campus of Saint Mary\u2019s College.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/939546\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0476",
+    "id": "sbe_0484",
     "title": "Oct27SMC Talks: Dialogue at Saint Mary's: Building Skills that LastSMC Talks is a virtual seminar modeled after TED Talks, whose slogan is \"ideas worth spreading\". Each short program will feature an alumna or alumnae who share insights on professional topics, personal growth, spiritual inspiration, or distinctive  talents. Speakers will include unique, dynamic, diverse women across all class years. SMC Talks is available to the entire Saint Mary's community, including alumnae, current students, parents, faculty, and staff.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6188,7 +6292,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Oct27SMC Talks: Dialogue at Saint Mary's: Building Skills that LastSMC Talks is a virtual seminar modeled after TED Talks, whose slogan is \"ideas worth spreading\". Each short program will feature an alumna or alumnae who share insights on professional topics, personal growth, spiritual inspiration, or distinctive  talents. Speakers will include unique, dynamic, diverse women across all class years. SMC Talks is available to the entire Saint Mary's community, including alumnae, current students, parents, faculty, and staff.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/949061\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0477",
+    "id": "sbe_0485",
     "title": "Oct29Speech-Language Pathology Bridge Program Virtual Information SessionFaculty of the Speech-Language Pathology program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6201,7 +6305,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Oct29Speech-Language Pathology Bridge Program Virtual Information SessionFaculty of the Speech-Language Pathology program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/945581\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0478",
+    "id": "sbe_0486",
     "title": "Oct31SBYSO Presents a Spooktacular Halloween ConcertA Spooktacular Halloween Concert! A FREE family-friendly concert featuring the South Bend Youth Symphony Orchestras (SBYSO) and Fischoff Chamber Music Academy",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6214,7 +6318,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Oct31SBYSO Presents a Spooktacular Halloween ConcertA Spooktacular Halloween Concert! A FREE family-friendly concert featuring the South Bend Youth Symphony Orchestras (SBYSO) and Fischoff Chamber Music Academy\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/949056\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0479",
+    "id": "sbe_0487",
     "title": "Nov3Doctor of Nursing Practice Virtual Information SessionsFaculty of the Doctor of Nursing Practice program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6227,7 +6331,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Nov3Doctor of Nursing Practice Virtual Information SessionsFaculty of the Doctor of Nursing Practice program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/944851\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0480",
+    "id": "sbe_0488",
     "title": "Nov5 - 8The Book WomenSaint Mary\u2019s Program in Theatre Presents The Book Women by Rachel Bublitz.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6240,7 +6344,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Nov5 - 8The Book WomenSaint Mary\u2019s Program in Theatre Presents The Book Women by Rachel Bublitz.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/948986\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0481",
+    "id": "sbe_0489",
     "title": "Nov10Certificate in Geriatric Neuropsychiatry Virtual Information SessionNursing faculty will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6253,7 +6357,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Nov10Certificate in Geriatric Neuropsychiatry Virtual Information SessionNursing faculty will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/944941\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0482",
+    "id": "sbe_0490",
     "title": "Nov16Senior Preview DayWant to shadow a current student?Students will be connected with a current Saint Mary's student while they attend a class and get to know our campus.  Parents will have the opportunity to learn more about the admission process, financial aid and faculty interaction. Both can expect to learn more about student life, clubs and activities on campus and eat lunch in the dining hall.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6266,7 +6370,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Nov16Senior Preview DayWant to shadow a current student?Students will be connected with a current Saint Mary's student while they attend a class and get to know our campus.  Parents will have the opportunity to learn more about the admission process, financial aid and faculty interaction. Both can expect to learn more about student life, clubs and activities on campus and eat lunch in the dining hall.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/944511\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0483",
+    "id": "sbe_0491",
     "title": "Nov16Master of Social Work Virtual Information SessionsFaculty of the Master of Social Work Program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6279,7 +6383,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Nov16Master of Social Work Virtual Information SessionsFaculty of the Master of Social Work Program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/944856\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0484",
+    "id": "sbe_0492",
     "title": "Dec1Master of Science in Nursing Virtual Information SessionsFaculty of the Master of Science in Nursing program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6292,7 +6396,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Dec1Master of Science in Nursing Virtual Information SessionsFaculty of the Master of Science in Nursing program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/944846\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0485",
+    "id": "sbe_0493",
     "title": "Dec3Master of Science in Speech-Language Pathology Virtual Information SessionsFaculty of the Speech-Language Pathology program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6305,7 +6409,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Dec3Master of Science in Speech-Language Pathology Virtual Information SessionsFaculty of the Speech-Language Pathology program will provide a short presentation followed by a Q&A session. The Office of Graduate Admission will also be there to answer your admission and financial aid questions.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/944826\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0486",
+    "id": "sbe_0494",
     "title": "Dec20Christmas at LorettoThe South Bend Chamber Singers presents the always popular Christmas at Loretto, an annual concert featuring new music for the season.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6318,7 +6422,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Dec20Christmas at LorettoThe South Bend Chamber Singers presents the always popular Christmas at Loretto, an annual concert featuring new music for the season.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/940441\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0487",
+    "id": "sbe_0495",
     "title": "Jan30Graduate Campus Visit DaysJoin us for Graduate Campus Visit Day!",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6331,7 +6435,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Jan30Graduate Campus Visit DaysJoin us for Graduate Campus Visit Day!\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/945276\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0488",
+    "id": "sbe_0496",
     "title": "Feb15Senior Preview DayWant to shadow a current student?Students will be connected with a current Saint Mary's student while they attend a class and get to know our campus.  Parents will have the opportunity to learn more about the admission process, financial aid and faculty interaction. Both can expect to learn more about student life, clubs and activities on campus and eat lunch in the dining hall.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6344,7 +6448,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Feb15Senior Preview DayWant to shadow a current student?Students will be connected with a current Saint Mary's student while they attend a class and get to know our campus.  Parents will have the opportunity to learn more about the admission process, financial aid and faculty interaction. Both can expect to learn more about student life, clubs and activities on campus and eat lunch in the dining hall.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/944511\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0489",
+    "id": "sbe_0497",
     "title": "Apr11Spring Day on CampusAre you a sophomore or junior in high school?Spring Day on Campus is a program specifically designed for you and your parents. During Spring Day, you and your family can explore our campus, get  admission advice, talk with your admission counselor, and learn about the benefits of a women's college.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6357,7 +6461,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Apr11Spring Day on CampusAre you a sophomore or junior in high school?Spring Day on Campus is a program specifically designed for you and your parents. During Spring Day, you and your family can explore our campus, get  admission advice, talk with your admission counselor, and learn about the benefits of a women's college.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/944821\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0490",
+    "id": "sbe_0498",
     "title": "Apr13An Evening with Ruth Ben-GhiatAn Evening with Ruth Ben-Ghiat: Historian, NYT Bestselling Author, Expert on Fascism and Authoritarian Leaders",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6370,7 +6474,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Apr13An Evening with Ruth Ben-GhiatAn Evening with Ruth Ben-Ghiat: Historian, NYT Bestselling Author, Expert on Fascism and Authoritarian Leaders\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/948786\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0491",
+    "id": "sbe_0499",
     "title": "May23South Bend Chamber Singers Present Music About MusicThe South Bend Chamber Singers closes out its 38th season with Music About\u00a0Music, with special guests, Penn High School's excellent choir, Viva Voce,\u00a0under the direction of Andrea Nemeth.",
     "venue": "Saint Mary's College Events",
     "city": "South Bend",
@@ -6383,7 +6487,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:May23South Bend Chamber Singers Present Music About MusicThe South Bend Chamber Singers closes out its 38th season with Music About\u00a0Music, with special guests, Penn High School's excellent choir, Viva Voce,\u00a0under the direction of Andrea Nemeth.\nLOCATION:Saint Mary's College Events\nDESCRIPTION:Source Link: https://www.saintmarys.edu/node/948921\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0492",
+    "id": "sbe_0500",
     "title": "Find Music, Theater, Dance, Cinema + More Events",
     "venue": "DeBartolo Performing Arts Center",
     "city": "South Bend",
@@ -6396,7 +6500,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Find Music, Theater, Dance, Cinema + More Events\nLOCATION:DeBartolo Performing Arts Center\nDESCRIPTION:Source Link: https://performingarts.nd.edu\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0493",
+    "id": "sbe_0501",
     "title": "Merrimans' Playhouse",
     "venue": "Merrimans' Playhouse",
     "city": "South Bend",
@@ -6409,7 +6513,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Merrimans' Playhouse\nLOCATION:Merrimans' Playhouse\nDESCRIPTION:Source Link: https://www.merrimansplayhouse.org/home\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0494",
+    "id": "sbe_0502",
     "title": "Culture Ca\u0192\u00e9",
     "venue": "Merrimans' Playhouse",
     "city": "South Bend",
@@ -6422,7 +6526,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Culture Ca\u0192\u00e9\nLOCATION:Merrimans' Playhouse\nDESCRIPTION:Source Link: https://www.facebook.com/profile.php?id=61562492409777\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0495",
+    "id": "sbe_0503",
     "title": "Complete Piano Service",
     "venue": "Merrimans' Playhouse",
     "city": "South Bend",
@@ -6435,7 +6539,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Complete Piano Service\nLOCATION:Merrimans' Playhouse\nDESCRIPTION:Source Link: https://www.merrimanspiano.com/home\nDTSTART:20261015T190000Z\nDTEND:20261015T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0496",
+    "id": "sbe_0504",
     "title": "Ghost Tours / SOLD OUT",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6448,7 +6552,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Ghost Tours / SOLD OUT\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/ghost-tours-2/2026-10-16/\nDTSTART:20261016T190000Z\nDTEND:20261016T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0497",
+    "id": "sbe_0505",
     "title": "Outlander in Concert",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6461,7 +6565,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Outlander in Concert\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/outlander-in-concert/\nDTSTART:20261021T190000Z\nDTEND:20261021T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0498",
+    "id": "sbe_0506",
     "title": "Ghost Tours / SOLD OUT",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6474,7 +6578,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Ghost Tours / SOLD OUT\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/ghost-tours-2/2026-10-28/\nDTSTART:20261028T190000Z\nDTEND:20261028T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0499",
+    "id": "sbe_0507",
     "title": "Dr. Seuss&#8217; How The Grinch Stole Christmas! National Broadway Tour",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6487,7 +6591,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Dr. Seuss&#8217; How The Grinch Stole Christmas! National Broadway Tour\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/dr-seuss-how-the-grinch-stole-christmas/\nDTSTART:20261106T193000Z\nDTEND:20261106T213000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0500",
+    "id": "sbe_0508",
     "title": "Dr. Seuss&#8217; How The Grinch Stole Christmas! National Broadway Tour",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6500,7 +6604,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Dr. Seuss&#8217; How The Grinch Stole Christmas! National Broadway Tour\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/dr-seuss-how-the-grinch-stole-christmas-national-broadway-tour/\nDTSTART:20261107T120000Z\nDTEND:20261107T140000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0501",
+    "id": "sbe_0509",
     "title": "Cinderella Presented by United European Ballet",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6513,7 +6617,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Cinderella Presented by United European Ballet\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/cinderella-presented-by-united-european-ballet/\nDTSTART:20261112T190000Z\nDTEND:20261112T210000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0502",
+    "id": "sbe_0510",
     "title": "Actor\u2019s Cut: Clue the Movie",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6526,7 +6630,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Actor\u2019s Cut: Clue the Movie\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/actors-cut-clue-the-movie/\nDTSTART:20261113T193000Z\nDTEND:20261113T213000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0503",
+    "id": "sbe_0511",
     "title": "O Christmas Tea: A British Comedy",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6539,7 +6643,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:O Christmas Tea: A British Comedy\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/o-christmas-tea-a-british-comedy/\nDTSTART:20261122T150000Z\nDTEND:20261122T170000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0504",
+    "id": "sbe_0512",
     "title": "Mike Epps",
     "venue": "Morris Performing Arts Center",
     "city": "South Bend",
@@ -6552,7 +6656,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Mike Epps\nLOCATION:Morris Performing Arts Center\nDESCRIPTION:Source Link: https://morriscenter.org/event/mike-epps/\nDTSTART:20261125T200000Z\nDTEND:20261125T220000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0505",
+    "id": "sbe_0513",
     "title": "Tuesday Open Mic",
     "venue": "The Drop Comedy Club",
     "city": "South Bend",
@@ -6565,7 +6669,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:Tuesday Open Mic\nLOCATION:The Drop Comedy Club\nDESCRIPTION:Source Link: https://thedropcomedyclub.com/tuesday-open-mic.html\nDTSTART:20261020T170000Z\nDTEND:20261020T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0506",
+    "id": "sbe_0514",
     "title": "[email\u00a0protected]",
     "venue": "The Drop Comedy Club",
     "city": "South Bend",
@@ -6578,7 +6682,7 @@
     "ics_export": "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//South Bend Event Aggregator//EN\nBEGIN:VEVENT\nSUMMARY:[email\u00a0protected]\nLOCATION:The Drop Comedy Club\nDESCRIPTION:Source Link: https://thedropcomedyclub.com/cdn-cgi/l/email-protection\nDTSTART:20260814T170000Z\nDTEND:20260814T190000Z\nEND:VEVENT\nEND:VCALENDAR"
   },
   {
-    "id": "sbe_0507",
+    "id": "sbe_0515",
     "title": "Check out our calendar page for the most current list of comics for the fall and winter",
     "venue": "The Drop Comedy Club",
     "city": "South Bend",
