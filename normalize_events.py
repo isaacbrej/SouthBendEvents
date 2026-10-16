@@ -19,7 +19,7 @@ class EventNormalizerPipeline:
         self.output_file = output_file
 
     def parse_date(self, date_str):
-        """Step 4: Converts fuzzy/raw date strings into standardized ISO-8601 timestamps."""
+        """Converts fuzzy/raw date strings into standardized ISO-8601 timestamps."""
         if not date_str or date_str in ["Upcoming", "None", ""]:
             return (NOW + timedelta(days=1)).strftime("%Y-%m-%dT19:00:00")
 
@@ -48,7 +48,7 @@ class EventNormalizerPipeline:
             return (NOW + timedelta(days=1)).strftime("%Y-%m-%dT19:00:00")
 
     def categorize_event(self, title, venue, source_category):
-        """Step 3: Tags events using dynamic keyword analysis to override source defaults."""
+        """Tags events using dynamic keyword analysis to override source defaults."""
         text = f"{title} {venue}".lower()
 
         # 1. Noise Filter: Exclude internal administrative noise listings
@@ -75,8 +75,17 @@ class EventNormalizerPipeline:
             "neighborhood association",
             "forum",
             "commissioners",
+            "commission",
             "public meeting",
             "listening session",
+            "public works",
+            "plan commission",
+            "plat committee",
+            "merit board",
+            "board of health",
+            "animal care",
+            "election board",
+            "redevelopment",
         ]
         if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in civic_keywords):
             return "Civic & Community Affairs"
@@ -173,11 +182,11 @@ class EventNormalizerPipeline:
         if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in festival_keywords):
             return "Festivals & Community"
 
-        # Fallback: Default to original source category or Community & Social
+        # Fallback
         return source_category if source_category else "Community & Social"
 
     def generate_ics_content(self, event):
-        """Step 4: Generates iCalendar .ics format for 1-click Google Calendar export."""
+        """Generates iCalendar .ics format for 1-click Google Calendar export."""
         title = event["title"]
         venue = event["venue"]
         link = event["link"]
@@ -226,17 +235,14 @@ class EventNormalizerPipeline:
             category_raw = event.get("category", "General Social")
             date_raw = event.get("date_raw", "Upcoming")
 
-            # Noise Filter & Dynamic Keyword Categorization
             category = self.categorize_event(title, venue, category_raw)
             if category == "Filtered Out":
                 noise_filtered_count += 1
                 continue
 
-            # Parse date prior to deduplication
             iso_date = self.parse_date(date_raw)
-            date_part = iso_date[:10]  # Extracts YYYY-MM-DD
+            date_part = iso_date[:10]
 
-            # Deduplication key includes title, venue, and date
             clean_title = re.sub(r"[^a-z0-9]", "", title.lower())
             dedup_key = f"{clean_title}_{venue.lower()}_{date_part}"
             if dedup_key in seen_keys:
@@ -244,7 +250,6 @@ class EventNormalizerPipeline:
                 continue
             seen_keys.add(dedup_key)
 
-            # Assign sequential ID based on final output list length
             new_id = f"sbe_{len(processed_events) + 1:04d}"
 
             normalized_item = {

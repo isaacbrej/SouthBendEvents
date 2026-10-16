@@ -14,7 +14,6 @@ def load_events():
         data = json.load(f)
     df = pd.DataFrame(data)
 
-    # Convert to datetime handling mixed timezones cleanly
     dt_series = pd.to_datetime(df["iso_start_time"], utc=True, errors="coerce")
     df["datetime"] = dt_series
     df["date"] = dt_series.dt.date
@@ -65,13 +64,11 @@ if selected_categories:
 if selected_venues:
     filtered_df = filtered_df[filtered_df["venue"].isin(selected_venues)]
 
-# Date filtering: Keep matches AND entries without valid dates rather than dropping them
 if isinstance(date_range, tuple) and len(date_range) == 2:
     start_d, end_d = date_range
     date_mask = (filtered_df["date"] >= start_d) & (
         filtered_df["date"] <= end_d
     )
-    # Also include records where date is NaT so no valid events are hidden
     filtered_df = filtered_df[date_mask | filtered_df["date"].isna()]
 
 # KPI Summary Cards
@@ -88,12 +85,15 @@ if st.button("🔄 Refresh Scraper & Reload Data"):
     st.success("Data reloaded successfully!")
     st.rerun()
 
-# Display Mode Tabs
-tab_list, tab_calendar = st.tabs(
-    ["📋 Event List View", "📅 Interactive Calendar View"]
+# Tabs: Community Events, Civic & Government Meetings, and Interactive Calendar
+tab_community, tab_civic, tab_calendar = st.tabs(
+    [
+        "🎉 Community & Social Events",
+        "🏛️ Civic & Community Government",
+        "📅 Interactive Calendar View",
+    ]
 )
 
-# Emoji mapping dictionary for categories
 CATEGORY_EMOJIS = {
     "Civic & Community Affairs": "🏛️",
     "Live Music": "🎵",
@@ -104,45 +104,69 @@ CATEGORY_EMOJIS = {
     "Community & Social": "👥",
 }
 
-with tab_list:
-    if filtered_df.empty:
-        st.info("No events found matching your filter criteria.")
-    else:
-        for _, row in filtered_df.iterrows():
-            with st.container():
-                c1, c2 = st.columns([3, 1])
-                cat_name = row.get("category", "General")
-                emoji = CATEGORY_EMOJIS.get(cat_name, "📌")
 
-                with c1:
-                    st.subheader(row.get("title", "Untitled Event"))
-                    st.write(
-                        f"**Venue:** {row.get('venue', 'N/A')} ({row.get('city', 'South Bend')})"
+def render_event_list(events_df):
+    if events_df.empty:
+        st.info("No events found matching your filter criteria.")
+        return
+
+    for _, row in events_df.iterrows():
+        with st.container():
+            c1, c2 = st.columns([3, 1])
+            cat_name = row.get("category", "General")
+            emoji = CATEGORY_EMOJIS.get(cat_name, "📌")
+
+            with c1:
+                st.subheader(row.get("title", "Untitled Event"))
+                st.write(
+                    f"**Venue:** {row.get('venue', 'N/A')} ({row.get('city', 'South Bend')})"
+                )
+                st.write(
+                    f"**Category:** `{emoji} {cat_name}` | **Date/Time:** {row.get('iso_start_time', 'TBD')}"
+                )
+                if pd.notna(row.get("link")):
+                    st.markdown(f"[🔗 View Original Event Link]({row['link']})")
+            with c2:
+                if pd.notna(row.get("ics_export")):
+                    st.download_button(
+                        label="📅 Download .ics",
+                        data=row["ics_export"],
+                        file_name=f"{row.get('id', 'event')}.ics",
+                        mime="text/calendar",
+                        key=f"btn_{row.get('id')}",
                     )
-                    st.write(
-                        f"**Category:** `{emoji} {cat_name}` | **Date/Time:** {row.get('iso_start_time', 'TBD')}"
-                    )
-                    if pd.notna(row.get("link")):
-                        st.markdown(
-                            f"[🔗 View Original Event Link]({row['link']})"
-                        )
-                with c2:
-                    if pd.notna(row.get("ics_export")):
-                        st.download_button(
-                            label="📅 Download .ics",
-                            data=row["ics_export"],
-                            file_name=f"{row.get('id', 'event')}.ics",
-                            mime="text/calendar",
-                            key=row.get("id"),
-                        )
-                st.divider()
+            st.divider()
+
+
+with tab_community:
+    community_df = filtered_df[
+        filtered_df["category"] != "Civic & Community Affairs"
+    ]
+    render_event_list(community_df)
+
+with tab_civic:
+    civic_df = filtered_df[
+        filtered_df["category"] == "Civic & Community Affairs"
+    ]
+    render_event_list(civic_df)
 
 with tab_calendar:
     st.subheader("Event Timetable")
-    if not filtered_df.empty:
-        cal_df = filtered_df[
-            ["date", "title", "venue", "category"]
-        ].sort_values("date")
+
+    show_civic = st.checkbox(
+        "Include Civic & Government Meetings in Calendar View", value=False
+    )
+
+    cal_filtered = (
+        filtered_df
+        if show_civic
+        else filtered_df[filtered_df["category"] != "Civic & Community Affairs"]
+    )
+
+    if not cal_filtered.empty:
+        cal_df = cal_filtered[["date", "title", "venue", "category"]].sort_values(
+            "date"
+        )
         st.dataframe(cal_df, use_container_width=True)
     else:
         st.info("No events available for calendar view.")
