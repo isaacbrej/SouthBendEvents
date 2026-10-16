@@ -2976,7 +2976,7 @@
     ]
   },
   "elkhart_public_library__premier_arts": {
-    "timestamp": "2026-10-16T01:16:16.939469",
+    "timestamp": "2026-10-16T01:53:09.837237",
     "count": 9,
     "events": [
       {
@@ -2986,7 +2986,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/dia-de-los-muertos-community-ofrenda/2026-10-12/",
-        "scraped_at": "2026-10-16T01:16:16.939256",
+        "scraped_at": "2026-10-16T01:53:09.837060",
         "extraction_tier": "Tier 1 (JSON-LD)"
       },
       {
@@ -2996,7 +2996,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/blow-paint-monsters/",
-        "scraped_at": "2026-10-16T01:16:16.939295",
+        "scraped_at": "2026-10-16T01:53:09.837089",
         "extraction_tier": "Tier 1 (JSON-LD)"
       },
       {
@@ -3006,7 +3006,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/painting-with-linda-pieri/",
-        "scraped_at": "2026-10-16T01:16:16.939317",
+        "scraped_at": "2026-10-16T01:53:09.837105",
         "extraction_tier": "Tier 1 (JSON-LD)"
       },
       {
@@ -3016,7 +3016,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/artificial-intelligence-an-introduction-3/",
-        "scraped_at": "2026-10-16T01:16:16.939334",
+        "scraped_at": "2026-10-16T01:53:09.837120",
         "extraction_tier": "Tier 1 (JSON-LD)"
       },
       {
@@ -3026,7 +3026,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/painting-with-linda-pieri-4/",
-        "scraped_at": "2026-10-16T01:16:16.939350",
+        "scraped_at": "2026-10-16T01:53:09.837135",
         "extraction_tier": "Tier 1 (JSON-LD)"
       },
       {
@@ -3036,7 +3036,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/crafts-at-cleveland-12/",
-        "scraped_at": "2026-10-16T01:16:16.939365",
+        "scraped_at": "2026-10-16T01:53:09.837150",
         "extraction_tier": "Tier 1 (JSON-LD)"
       },
       {
@@ -3046,7 +3046,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/bilingual-storytime-hora-de-cuentos-billingues-2026-10-16/",
-        "scraped_at": "2026-10-16T01:16:16.939380",
+        "scraped_at": "2026-10-16T01:53:09.837165",
         "extraction_tier": "Tier 1 (JSON-LD)"
       },
       {
@@ -3056,7 +3056,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/rhythms-and-rhymes/2026-10-16/",
-        "scraped_at": "2026-10-16T01:16:16.939396",
+        "scraped_at": "2026-10-16T01:53:09.837180",
         "extraction_tier": "Tier 1 (JSON-LD)"
       },
       {
@@ -3066,7 +3066,7 @@
         "city": "Elkhart",
         "venue": "Elkhart Public Library / Premier Arts",
         "link": "https://www.myepl.org/event/ox-bow-books-and-boots/2026-10-16/",
-        "scraped_at": "2026-10-16T01:16:16.939427",
+        "scraped_at": "2026-10-16T01:53:09.837193",
         "extraction_tier": "Tier 1 (JSON-LD)"
       }
     ]
