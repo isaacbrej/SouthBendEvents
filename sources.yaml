@@ -79,6 +79,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: palais_royale_south_bend_alt_endpoint
+  name: Palais Royale (South Bend) (Alt Endpoint)
+  url: https://palaisroyale.org/contact
+  category: Arts, Culture & Community
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: pigeon__the_hen_pottery
   name: Pigeon & The Hen Pottery
   url: https://www.pigeonhenpottery.com
@@ -91,6 +105,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: pigeon__the_hen_pottery_alt_endpoint
+  name: Pigeon & The Hen Pottery (Alt Endpoint)
+  url: https://www.pigeonhenpottery.com/event-calendar
+  category: Arts, Culture & Community
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: river_park_center__nectar_coffee_house
   name: River Park Center / Nectar Coffee House
@@ -118,6 +146,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: south_bend_civic_theatre_alt_endpoint
+  name: South Bend Civic Theatre (Alt Endpoint)
+  url: https://sbct.org/shows
+  category: Arts, Culture & Community
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: south_bend_dance_center__salsa_sb
   name: South Bend Dance Center & Salsa SB
   url: https://salsasouthbend.com
@@ -144,6 +186,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: south_bend_museum_of_art_sbma_alt_endpoint
+  name: South Bend Museum of Art (SBMA) (Alt Endpoint)
+  url: https://southbendart.org/all-events/
+  category: Arts, Culture & Community
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Low
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: south_bend_symphony_orchestra_sbso
   name: South Bend Symphony Orchestra (SBSO)
   url: https://southbendsymphony.org
@@ -157,6 +213,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: south_bend_symphony_orchestra_sbso_alt_endpoint
+  name: South Bend Symphony Orchestra (SBSO) (Alt Endpoint)
+  url: https://southbendsymphony.org/calendar
+  category: Arts, Culture & Community
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Low
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: st_joseph_county_public_library_sjcpl
   name: St. Joseph County Public Library (SJCPL)
   url: https://sjcpl.org/events/
@@ -169,6 +239,20 @@ sources:
     card: div[class*='card']
     title: h5
     date: time, .date
+    link: a
+- id: st_joseph_county_public_library_sjcpl_alt_endpoint
+  name: St. Joseph County Public Library (SJCPL) (Alt Endpoint)
+  url: https://sjcpl.org/special-events/
+  category: Arts, Culture & Community
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: the_bendix_arena__century_center_complex
   name: The Bendix Arena / Century Center Complex
@@ -209,6 +293,20 @@ sources:
     title: h3
     date: time, .date
     link: a
+- id: wellfield_botanic_gardens_elkhart__25m_away_alt_endpoint
+  name: Wellfield Botanic Gardens (Elkhart - 25m away) (Alt Endpoint)
+  url: https://wellfieldgardens.org/calendar
+  category: Arts, Culture & Community
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: bare_hands_brewery_granger
   name: Bare Hands Brewery (Granger)
   url: https://www.barehandsbrewery.com/events
@@ -234,6 +332,20 @@ sources:
     card: div.horizontal-navigation-bar.clear
     title: h3
     date: time, .date
+    link: a
+- id: chicory_cafe__event_center_mishawaka_alt_endpoint
+  name: Chicory Cafe & Event Center (Mishawaka) (Alt Endpoint)
+  url: http://chicoryeventcenter.com
+  category: Breweries & Taprooms
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: crooked_ewe_brewery__ale_house
   name: Crooked Ewe Brewery & Ale House
@@ -300,6 +412,20 @@ sources:
     title: a.block_pages__item
     date: div.upcoming_events__date
     link: a.block_pages__item
+- id: journeyman_distillery_valparaisothree_oaks__30m_away_alt_endpoint
+  name: Journeyman Distillery (Valparaiso/Three Oaks - 30m away) (Alt Endpoint)
+  url: https://www.journeyman.com/calendar
+  category: Breweries & Taprooms
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: studebaker_brewing_co__tippecanoe
   name: Studebaker Brewing Co. / Tippecanoe
   url: https://tippecanoe.com/events
@@ -325,6 +451,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: sun_king_brewery_mishawaka_alt_endpoint
+  name: Sun King Brewery Mishawaka (Alt Endpoint)
+  url: https://www.sunkingbrewing.com/private-events
+  category: Breweries & Taprooms
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: south_bend_tribune_calendar
   name: South Bend Tribune Calendar
@@ -352,6 +492,20 @@ sources:
     title: h3
     date: time, .date
     link: a
+- id: wvpe_881_public_radio_calendar_alt_endpoint
+  name: WVPE 88.1 Public Radio Calendar (Alt Endpoint)
+  url: https://www.wvpe.org/schedule
+  category: Media & Calendars
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: bar_louie_heritage_square_granger
   name: Bar Louie (Heritage Square Granger)
   url: https://www.barlouie.com/locations/us/in/granger
@@ -364,6 +518,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: bar_louie_heritage_square_granger_alt_endpoint
+  name: Bar Louie (Heritage Square Granger) (Alt Endpoint)
+  url: https://barlouie.com/bar-louie-events/
+  category: Nightlife & Social
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: chippewa_bowl__strike_zone_entertainment
   name: Chippewa Bowl / Strike Zone Entertainment
@@ -391,6 +559,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: corbys_irish_pub_alt_endpoint
+  name: Corby's Irish Pub (Alt Endpoint)
+  url: https://www.corbysirishpub.com/calendar--special-events.html
+  category: Nightlife & Social
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: fiddlers_hearth
   name: Fiddler's Hearth
   url: https://fiddlershearth.com
@@ -416,6 +598,20 @@ sources:
     card: div.input-group
     title: h3
     date: span.select-dates-label
+    link: a
+- id: four_winds_casino_south_bend_events_alt_endpoint
+  name: Four Winds Casino South Bend Events (Alt Endpoint)
+  url: https://fourwindscasino.com/event-calendar
+  category: Nightlife & Social
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: hammer__glass__local_speakeasy_lounges
   name: Hammer & Glass / Local Speakeasy Lounges
@@ -521,6 +717,20 @@ sources:
     title: h3
     date: time, .date
     link: a
+- id: the_general_deli__cafe_alt_endpoint
+  name: The General Deli & Cafe (Alt Endpoint)
+  url: https://thegeneraldeli.com/general-events
+  category: Nightlife & Social
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: the_hideaway_at_the_lasalle
   name: The Hideaway at the LaSalle
   url: https://thehideawaysb.com
@@ -533,6 +743,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: the_hideaway_at_the_lasalle_alt_endpoint
+  name: The Hideaway at the LaSalle (Alt Endpoint)
+  url: https://www.kirkwoodcollection.com/hideaway/events-room-blocks/
+  category: Nightlife & Social
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: villa_maclaren__outdoor_social_spaces
   name: Villa MacLaren / Outdoor Social Spaces
@@ -573,6 +797,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: howard_park_events_alt_endpoint
+  name: Howard Park Events (Alt Endpoint)
+  url: https://sbparksandrec.org/calendar
+  category: Outdoor, Parks & Sports
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: mishawaka_parks__rec_community_centers
   name: Mishawaka Parks & Rec Community Centers
   url: https://mishawaka.in.gov/things-to-do/city-calendar/
@@ -585,6 +823,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: mishawaka_parks__rec_community_centers_alt_endpoint
+  name: Mishawaka Parks & Rec Community Centers (Alt Endpoint)
+  url: https://mishawaka.in.gov/events
+  category: Outdoor, Parks & Sports
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: potawatomi_zoo
   name: Potawatomi Zoo
@@ -599,6 +851,20 @@ sources:
     title: a.url
     date: span.tribe-event-date-start
     link: a.url
+- id: potawatomi_zoo_alt_endpoint
+  name: Potawatomi Zoo (Alt Endpoint)
+  url: https://www.potawatomizoo.org/events
+  category: Outdoor, Parks & Sports
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Low
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: south_bend_cubs__four_winds_field
   name: South Bend Cubs / Four Winds Field
   url: https://www.milb.com/south-bend
@@ -611,6 +877,20 @@ sources:
     card: div.styles__Root-sc-cb73d60e-0.eYpRMN
     title: h3
     date: time, .date
+    link: a
+- id: south_bend_cubs__four_winds_field_alt_endpoint
+  name: South Bend Cubs / Four Winds Field (Alt Endpoint)
+  url: https://www.milb.com/schedule
+  category: Outdoor, Parks & Sports
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: south_bend_venues_parks__arts_sbvpa
   name: South Bend Venues Parks & Arts (SBVPA)
@@ -625,6 +905,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: south_bend_venues_parks__arts_sbvpa_alt_endpoint
+  name: South Bend Venues Parks & Arts (SBVPA) (Alt Endpoint)
+  url: https://sbvpa.org/shows
+  category: Outdoor, Parks & Sports
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: st_joseph_county_parks
   name: St. Joseph County Parks
   url: https://www.sjcparks.org/calendar.aspx
@@ -637,6 +931,20 @@ sources:
     card: div[class*='event']
     title: h3
     date: time, .date
+    link: a
+- id: st_joseph_county_parks_alt_endpoint
+  name: St. Joseph County Parks (Alt Endpoint)
+  url: https://www.sjcparks.org/calendar
+  category: Outdoor, Parks & Sports
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: bandsintown_south_bend
   name: Bandsintown (South Bend)
@@ -664,6 +972,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: city_of_elkhart_events_calendar_alt_endpoint
+  name: City of Elkhart Events Calendar (Alt Endpoint)
+  url: https://www.visitelkhartcounty.com/things-to-do
+  category: Primary Aggregators
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: city_of_niles_events_calendar_mi__15m_away
   name: City of Niles Events Calendar (MI - 15m away)
   url: https://nilesmi.org
@@ -676,6 +998,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: city_of_niles_events_calendar_mi__15m_away_alt_endpoint
+  name: City of Niles Events Calendar (MI - 15m away) (Alt Endpoint)
+  url: http://micommunityfinancials.michigan.gov/#!/dashboard/CITY/2657760?lat=41.83453900000001&lng=-86.24785099999997&zoom=10&showSidebar=yes
+  category: Primary Aggregators
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: city_of_south_bend_official_calendar
   name: City of South Bend Official Calendar
@@ -690,6 +1026,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: city_of_south_bend_official_calendar_alt_endpoint
+  name: City of South Bend Official Calendar (Alt Endpoint)
+  url: https://southbendin.gov/things-to-do
+  category: Primary Aggregators
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: downtown_south_bend_dtsb
   name: Downtown South Bend (DTSB)
   url: https://www.downtownsouthbend.com/calendar
@@ -703,6 +1053,20 @@ sources:
     title: h3
     date: time, .date
     link: a
+- id: downtown_south_bend_dtsb_alt_endpoint
+  name: Downtown South Bend (DTSB) (Alt Endpoint)
+  url: https://www.downtownsouthbend.com/events
+  category: Primary Aggregators
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High (Top Target)
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: eventbrite_south_bend_region
   name: Eventbrite (South Bend Region)
   url: https://www.eventbrite.com/d/in--south-bend/events/
@@ -715,6 +1079,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: eventbrite_south_bend_region_alt_endpoint
+  name: Eventbrite (South Bend Region) (Alt Endpoint)
+  url: https://www.eventbrite.com/things-to-do
+  category: Primary Aggregators
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: facebook_events_local_tag
   name: Facebook Events (Local Tag)
@@ -742,6 +1120,20 @@ sources:
     title: a.slider-card-main-slide__inner
     date: time, .date
     link: a.slider-card-main-slide__inner
+- id: visit_south_bend_mishawaka_alt_endpoint
+  name: Visit South Bend Mishawaka (Alt Endpoint)
+  url: https://www.visitsouthbend.com/things-to-do
+  category: Primary Aggregators
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High (Top Target)
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: city_of_mishawaka_parks__rec
   name: City of Mishawaka Parks & Rec
   url: https://mishawaka.in.gov/things-to-do/city-calendar/
@@ -754,6 +1146,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: city_of_mishawaka_parks__rec_alt_endpoint
+  name: City of Mishawaka Parks & Rec (Alt Endpoint)
+  url: https://mishawaka.in.gov/events
+  category: Regional Hubs
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: elkhart_civic__arts_events
   name: Elkhart Civic & Arts Events
@@ -768,6 +1174,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: elkhart_civic__arts_events_alt_endpoint
+  name: Elkhart Civic & Arts Events (Alt Endpoint)
+  url: https://www.elkhartindiana.org/things-to-do
+  category: Regional Hubs
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: elkhart_public_library__premier_arts
   name: Elkhart Public Library / Premier Arts
   url: https://myepl.org/events/
@@ -780,6 +1200,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: elkhart_public_library__premier_arts_alt_endpoint
+  name: Elkhart Public Library / Premier Arts (Alt Endpoint)
+  url: https://myepl.org/calendar
+  category: Regional Hubs
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: fernwood_botanical_garden__nature_center_niles_mi__20m_away
   name: Fernwood Botanical Garden & Nature Center (Niles, MI - 20m away)
@@ -794,6 +1228,20 @@ sources:
     title: h3
     date: time, .date
     link: a
+- id: fernwood_botanical_garden__nature_center_niles_mi__20m_away_alt_endpoint
+  name: Fernwood Botanical Garden & Nature Center (Niles, MI - 20m away) (Alt Endpoint)
+  url: https://www.fernwoodbotanical.org/events
+  category: Regional Hubs
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: good_of_goshen__downtown_goshen
   name: Good of Goshen / Downtown Goshen
   url: https://downtowngoshen.org/events/
@@ -806,6 +1254,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: good_of_goshen__downtown_goshen_alt_endpoint
+  name: Good of Goshen / Downtown Goshen (Alt Endpoint)
+  url: https://downtowngoshen.org/event-calendar
+  category: Regional Hubs
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: iron_shoe_distilling_niles_mi__15m_away
   name: Iron Shoe Distilling (Niles, MI - 15m away)
@@ -859,6 +1321,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: mishawaka_amphitheater__beutter_park_alt_endpoint
+  name: Mishawaka Amphitheater / Beutter Park (Alt Endpoint)
+  url: https://mishawaka.in.gov/events
+  category: Regional Hubs
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: rullis_italian__local_event_room_mishawakamiddlebury
   name: Rulli's Italian / Local Event Room (Mishawaka/Middlebury)
   url: https://rullis.com
@@ -885,6 +1361,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: downtown_south_bend_igfb_alt_endpoint
+  name: Downtown South Bend IG/FB (Alt Endpoint)
+  url: https://www.facebook.com/event-calendar
+  category: Social Media & Reddit
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Low
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: rsouthbend_subreddit
   name: r/SouthBend Subreddit
   url: https://www.reddit.com/r/SouthBend/
@@ -897,6 +1387,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: rsouthbend_subreddit_alt_endpoint
+  name: r/SouthBend Subreddit (Alt Endpoint)
+  url: https://www.reddit.com/calendar
+  category: Social Media & Reddit
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High (Top Target)
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: heritage_square_granger_events
   name: Heritage Square Granger Events
@@ -924,6 +1428,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: meetupcom_south_bend_region_alt_endpoint
+  name: Meetup.com (South Bend Region) (Alt Endpoint)
+  url: https://www.meetup.com/find/?source=EVENTS&eventType=inPerson&sortField=DATETIME&location=us--mi--Saint+Joseph
+  category: Ticketing & Meetup
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: promotix_south_bend_region
   name: PromoTix (South Bend Region)
   url: https://www.promotix.com/event-discovery/cities/south-bend-in/
@@ -936,6 +1454,20 @@ sources:
     card: div[class*='event']
     title: a
     date: time, .date
+    link: a
+- id: promotix_south_bend_region_alt_endpoint
+  name: PromoTix (South Bend Region) (Alt Endpoint)
+  url: https://promotix.com/event-creators
+  category: Ticketing & Meetup
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: university_park_mall_community_events
   name: University Park Mall Community Events
@@ -963,6 +1495,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: holy_cross_college_events_alt_endpoint
+  name: Holy Cross College Events (Alt Endpoint)
+  url: https://www.hcc-nd.edu/calendar
+  category: University & Campus
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Low
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: iusb_community_events_calendar
   name: IUSB Community Events Calendar
   url: https://events.iu.edu#lw_cal
@@ -975,6 +1521,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: iusb_community_events_calendar_alt_endpoint
+  name: IUSB Community Events Calendar (Alt Endpoint)
+  url: https://events.iu.edu/events
+  category: University & Campus
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: notre_dame_athletics_calendar
   name: Notre Dame Athletics Calendar
@@ -989,6 +1549,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: notre_dame_athletics_calendar_alt_endpoint
+  name: Notre Dame Athletics Calendar (Alt Endpoint)
+  url: https://fightingirish.com/sports/baseball/schedule/
+  category: University & Campus
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: notre_dame_debartolo_performing_arts_center_dpac
   name: Notre Dame DeBartolo Performing Arts Center (DPAC)
   url: https://performingarts.nd.edu/events/
@@ -1001,6 +1575,20 @@ sources:
     card: div[class*='event']
     title: h3
     date: time, .date
+    link: a
+- id: notre_dame_debartolo_performing_arts_center_dpac_alt_endpoint
+  name: Notre Dame DeBartolo Performing Arts Center (DPAC) (Alt Endpoint)
+  url: https://performingarts.nd.edu/calendar
+  category: University & Campus
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: notre_dame_master_events_calendar
   name: Notre Dame Master Events Calendar
@@ -1015,6 +1603,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: notre_dame_master_events_calendar_alt_endpoint
+  name: Notre Dame Master Events Calendar (Alt Endpoint)
+  url: https://events.nd.edu/events
+  category: University & Campus
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High (Top Target)
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: notre_dame_student_activities_sao
   name: Notre Dame Student Activities (SAO)
   url: https://sao.nd.edu/events/
@@ -1027,6 +1629,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: notre_dame_student_activities_sao_alt_endpoint
+  name: Notre Dame Student Activities (SAO) (Alt Endpoint)
+  url: https://sao.nd.edu/events/2026/10/31/halloweenfest/
+  category: University & Campus
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: saint_marys_college_events
   name: Saint Mary's College Events
@@ -1041,6 +1657,20 @@ sources:
     title: h3
     date: span.date.multi-month
     link: a
+- id: saint_marys_college_events_alt_endpoint
+  name: Saint Mary's College Events (Alt Endpoint)
+  url: https://www.saintmarys.edu/academics/resources/academic-calendar
+  category: University & Campus
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Low
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: debartolo_performing_arts_center
   name: DeBartolo Performing Arts Center
   url: https://performingarts.nd.edu
@@ -1053,6 +1683,20 @@ sources:
     card: div[class*='event']
     title: h2.home-events-search-title.text-center
     date: time, .date
+    link: a
+- id: debartolo_performing_arts_center_alt_endpoint
+  name: DeBartolo Performing Arts Center (Alt Endpoint)
+  url: https://performingarts.nd.edu/calendar
+  category: Venues & Nightlife
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: ironhand_wine_bar
   name: IRONHAND Wine Bar
@@ -1080,6 +1724,20 @@ sources:
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
     link: a
+- id: langlab_alt_endpoint
+  name: LangLab (Alt Endpoint)
+  url: https://www.langlabsb.com/events
+  category: Venues & Nightlife
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: High (Top Target)
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: merrimans_playhouse
   name: Merrimans' Playhouse
   url: https://merrimansplayhouse.org
@@ -1093,6 +1751,20 @@ sources:
     title: h2.font_5.wixui-rich-text__text
     date: time, .date
     link: a.apPOZK
+- id: merrimans_playhouse_alt_endpoint
+  name: Merrimans' Playhouse (Alt Endpoint)
+  url: https://merrimansplayhouse.org/events
+  category: Venues & Nightlife
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: morris_performing_arts_center
   name: Morris Performing Arts Center
   url: https://morriscenter.org
@@ -1105,6 +1777,20 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: morris_performing_arts_center_alt_endpoint
+  name: Morris Performing Arts Center (Alt Endpoint)
+  url: https://morriscenter.org/events
+  category: Venues & Nightlife
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
 - id: the_drop_comedy_club
   name: The Drop Comedy Club
@@ -1119,6 +1805,20 @@ sources:
     title: h3
     date: time, .date
     link: a.first-child.wsite-social-item
+- id: the_drop_comedy_club_alt_endpoint
+  name: The Drop Comedy Club (Alt Endpoint)
+  url: https://thedropcomedyclub.com/calendar
+  category: Venues & Nightlife
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
+    link: a
 - id: the_garage_arcade_bar
   name: The Garage Arcade Bar
   url: https://www.facebook.com/TheGarageArcadeBar
@@ -1131,4 +1831,18 @@ sources:
     card: article, .event-card, .event-item, .sqs-events-collection-item
     title: h1, h2, h3, h4, .title, .event-title
     date: time, .date, .event-date, .date-time
+    link: a
+- id: the_garage_arcade_bar_alt_endpoint
+  name: The Garage Arcade Bar (Alt Endpoint)
+  url: https://www.facebook.com/event-calendar
+  category: Venues & Nightlife
+  city: South Bend
+  scraping_type: beautifulsoup
+  enabled: true
+  priority: Medium
+  selectors:
+    card: article, .event-card, .event-item, .sqs-events-collection-item, .event,
+      .listing, a.calendarData, tr.calendarRow
+    title: h1, h2, h3, h4, .title, .event-title, .entry-title, .calendarDataTitle
+    date: time, .date, .event-date, .date-time, .dtstart, .calendarDataDate
     link: a
