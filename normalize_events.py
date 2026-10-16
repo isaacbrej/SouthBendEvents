@@ -48,16 +48,15 @@ class EventNormalizerPipeline:
             return (NOW + timedelta(days=1)).strftime("%Y-%m-%dT19:00:00")
 
     def categorize_event(self, title, venue, source_category):
-        """Step 3: Tags events into friend-group categories and filters out noise listings."""
-        text = f"{title} {venue} {source_category}".lower()
+        """Step 3: Tags events using dynamic keyword analysis to override source defaults."""
+        text = f"{title} {venue}".lower()
 
-        # Noise Filter: Exclude non-social listings
+        # 1. Noise Filter: Exclude internal administrative noise listings
         noise_keywords = [
             "morning storytime",
             "toddler story",
             "infant laptime",
             "executive committee meeting",
-            "board of directors meeting",
             "internal staff meeting",
             "closed session",
             "budget hearing",
@@ -65,91 +64,117 @@ class EventNormalizerPipeline:
         if any(nk in text for nk in noise_keywords):
             return "Filtered Out"
 
-        # Categorization Taxonomy
-        if any(
-            k in text
-            for k in [
-                "music",
-                "concert",
-                "band",
-                "symphony",
-                "orchestra",
-                "singer",
-                "dj",
-                "jazz",
-                "acoustic",
-                "choir",
-            ]
-        ):
+        # 2. Civic, Government & Public Community Meetings
+        civic_keywords = [
+            "town hall",
+            "city council",
+            "board meeting",
+            "committee meeting",
+            "public hearing",
+            "zoning",
+            "neighborhood association",
+            "forum",
+            "commissioners",
+            "public meeting",
+            "listening session",
+        ]
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in civic_keywords):
+            return "Civic & Community Affairs"
+
+        # 3. Live Music & Concerts
+        music_keywords = [
+            "music",
+            "concert",
+            "band",
+            "symphony",
+            "orchestra",
+            "singer",
+            "dj",
+            "jazz",
+            "acoustic",
+            "choir",
+            "jam session",
+            "live set",
+        ]
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in music_keywords):
             return "Live Music"
-        elif any(
-            k in text
-            for k in [
-                "pub",
-                "bar",
-                "brewery",
-                "taproom",
-                "trivia",
-                "beer",
-                "wine",
-                "distillery",
-                "cocktail",
-                "happy hour",
-                "nightlife",
-            ]
-        ):
-            return "Nightlife & Pubs"
-        elif any(
-            k in text
-            for k in [
-                "theater",
-                "theatre",
-                "show",
-                "comedy",
-                "play",
-                "broadway",
-                "musical",
-                "performance",
-                "film",
-                "movie",
-                "dance",
-                "ballet",
-            ]
-        ):
+
+        # 4. Shows, Theater & Performing Arts
+        shows_keywords = [
+            "theater",
+            "theatre",
+            "show",
+            "comedy",
+            "play",
+            "broadway",
+            "musical",
+            "performance",
+            "film",
+            "movie",
+            "dance",
+            "ballet",
+            "improv",
+            "exhibit",
+            "gallery",
+        ]
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in shows_keywords):
             return "Shows & Arts"
-        elif any(
-            k in text
-            for k in [
-                "sport",
-                "game",
-                "baseball",
-                "cubs",
-                "athletics",
-                "bowling",
-                "race",
-                "5k",
-                "run",
-                "fitness",
-                "yoga",
-            ]
-        ):
+
+        # 5. Sports & Recreation
+        sports_keywords = [
+            "sport",
+            "game",
+            "baseball",
+            "cubs",
+            "athletics",
+            "bowling",
+            "race",
+            "5k",
+            "marathon",
+            "run",
+            "fitness",
+            "yoga",
+            "tournament",
+            "volleyball",
+        ]
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in sports_keywords):
             return "Sports & Recreation"
-        elif any(
-            k in text
-            for k in [
-                "festival",
-                "fair",
-                "parade",
-                "market",
-                "expo",
-                "block party",
-                "celebration",
-                "food truck",
-            ]
-        ):
+
+        # 6. Nightlife, Bar & Pub Socials
+        nightlife_keywords = [
+            "pub",
+            "bar",
+            "brewery",
+            "taproom",
+            "trivia",
+            "beer",
+            "wine",
+            "distillery",
+            "cocktail",
+            "happy hour",
+            "nightlife",
+            "karaoke",
+            "pub crawl",
+        ]
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in nightlife_keywords):
+            return "Nightlife & Pubs"
+
+        # 7. Festivals & Fairs
+        festival_keywords = [
+            "festival",
+            "fair",
+            "parade",
+            "market",
+            "expo",
+            "block party",
+            "celebration",
+            "food truck",
+        ]
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in festival_keywords):
             return "Festivals & Community"
-        else:
-            return "Community & Social"
+
+        # Fallback: Default to original source category or Community & Social
+        return source_category if source_category else "Community & Social"
 
     def generate_ics_content(self, event):
         """Step 4: Generates iCalendar .ics format for 1-click Google Calendar export."""
@@ -201,7 +226,7 @@ class EventNormalizerPipeline:
             category_raw = event.get("category", "General Social")
             date_raw = event.get("date_raw", "Upcoming")
 
-            # Noise Filter
+            # Noise Filter & Dynamic Keyword Categorization
             category = self.categorize_event(title, venue, category_raw)
             if category == "Filtered Out":
                 noise_filtered_count += 1

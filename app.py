@@ -31,7 +31,7 @@ except Exception as e:
 # Header & Control Bar
 st.title("🏙️ South Bend & Mishawaka Event Aggregator")
 st.markdown(
-    "Discover local friend-group activities, live music, nightlife, and festivals across the region."
+    "Discover live music, nightlife, civic affairs, performing arts, sports, and community events across the region."
 )
 
 # Sidebar Filters
@@ -93,6 +93,17 @@ tab_list, tab_calendar = st.tabs(
     ["📋 Event List View", "📅 Interactive Calendar View"]
 )
 
+# Emoji mapping dictionary for categories
+CATEGORY_EMOJIS = {
+    "Civic & Community Affairs": "🏛️",
+    "Live Music": "🎵",
+    "Nightlife & Pubs": "🍺",
+    "Shows & Arts": "🎭",
+    "Sports & Recreation": "⚽",
+    "Festivals & Community": "🎪",
+    "Community & Social": "👥",
+}
+
 with tab_list:
     if filtered_df.empty:
         st.info("No events found matching your filter criteria.")
@@ -100,13 +111,16 @@ with tab_list:
         for _, row in filtered_df.iterrows():
             with st.container():
                 c1, c2 = st.columns([3, 1])
+                cat_name = row.get("category", "General")
+                emoji = CATEGORY_EMOJIS.get(cat_name, "📌")
+
                 with c1:
                     st.subheader(row.get("title", "Untitled Event"))
                     st.write(
                         f"**Venue:** {row.get('venue', 'N/A')} ({row.get('city', 'South Bend')})"
                     )
                     st.write(
-                        f"**Category:** `{row.get('category', 'General')}` | **Date/Time:** {row.get('iso_start_time', 'TBD')}"
+                        f"**Category:** `{emoji} {cat_name}` | **Date/Time:** {row.get('iso_start_time', 'TBD')}"
                     )
                     if pd.notna(row.get("link")):
                         st.markdown(
