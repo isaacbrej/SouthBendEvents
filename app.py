@@ -1,11 +1,26 @@
 import json
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 import pandas as pd
 import streamlit as st
 
 st.set_page_config(
     page_title="South Bend Event Dashboard", page_icon="🎟️", layout="wide"
 )
+
+
+def format_event_datetime(iso_str):
+    """Converts ISO timestamp strings into user-friendly readable dates and times."""
+    if not iso_str or pd.isna(iso_str) or iso_str == "TBD":
+        return "Date & Time TBD"
+
+    try:
+        dt = datetime.fromisoformat(str(iso_str).replace("Z", "+00:00"))
+        # Format: Friday, Oct 24, 2026 @ 7:00 PM
+        formatted_date = dt.strftime("%A, %b %d, %Y")
+        formatted_time = dt.strftime("%I:%M %p").lstrip("0")
+        return f"{formatted_date} @ {formatted_time}"
+    except Exception:
+        return str(iso_str)
 
 
 @st.cache_data
@@ -17,6 +32,9 @@ def load_events():
     dt_series = pd.to_datetime(df["iso_start_time"], utc=True, errors="coerce")
     df["datetime"] = dt_series
     df["date"] = dt_series.dt.date
+
+    # Format human-readable date strings
+    df["display_datetime"] = df["iso_start_time"].apply(format_event_datetime)
 
     return df
 
@@ -33,7 +51,59 @@ st.markdown(
     "Discover live music, nightlife, civic affairs, performing arts, sports, and community events across the region."
 )
 
-# Sidebar Filters
+CATEGORY_EMOJIS = {
+    "Civic & Community Affairs": "🏛️",
+    "Live Music": "🎵",
+    "Nightlife & Pubs": "🍺",
+    "Shows & Arts": "🎭",
+    "Sports & Recreation": "⚽",
+    "Festivals & Community": "🎪",
+    "Community & Social": "👥",
+}
+
+# -------------------------------------------------------------------
+# 1. 7-DAY UPCOMING CALENDAR AT THE TOP
+# -------------------------------------------------------------------
+st.subheader("📅 Next 7 Days At A Glance")
+
+today = date.today()
+next_7_days = [today + timedelta(days=i) for i in range(7)]
+
+cols = st.columns(7)
+
+for idx, day in enumerate(next_7_days):
+    with cols[idx]:
+        day_str = day.strftime("%a, %b %d")
+        if day == today:
+            st.markdown(f"**📌 TODAY**\n`{day_str}`")
+        else:
+            st.markdown(f"**{day.strftime('%A')}**\n`{day_str}`")
+
+        day_events = df[df["date"] == day]
+
+        if day_events.empty:
+            st.caption("No events")
+        else:
+            st.markdown(f"**{len(day_events)} Event(s)**")
+            for _, ev in day_events.iterrows():
+                cat = ev.get("category", "General")
+                emoji = CATEGORY_EMOJIS.get(cat, "📌")
+                title = ev.get("title", "Untitled")
+                venue = ev.get("venue", "N/A")
+                dt_fmt = ev.get("display_datetime", "TBD")
+
+                with st.expander(f"{emoji} {title[:25]}..."):
+                    st.write(f"**Venue:** {venue}")
+                    st.write(f"**When:** `{dt_fmt}`")
+                    st.write(f"**Category:** {cat}")
+                    if pd.notna(ev.get("link")):
+                        st.markdown(f"[🔗 View Event Link]({ev['link']})")
+
+st.divider()
+
+# -------------------------------------------------------------------
+# 2. SIDEBAR FILTERS
+# -------------------------------------------------------------------
 st.sidebar.header("Filter Events")
 
 # Category Filter
@@ -71,11 +141,37 @@ if isinstance(date_range, tuple) and len(date_range) == 2:
     )
     filtered_df = filtered_df[date_mask | filtered_df["date"].isna()]
 
-# KPI Summary Cards
-col1, col2, col3 = st.columns(3)
-col1.metric("Total Listings", len(filtered_df))
-col2.metric("Active Venues", filtered_df["venue"].nunique())
-col3.metric("Categories", filtered_df["category"].nunique())
+# -------------------------------------------------------------------
+# 3. DETAILED EVENT BREAKDOWN BY CATEGORY & VENUE
+# -------------------------------------------------------------------
+st.subheader("📊 Event Breakdown & Metrics")
+
+m1, m2, m3 = st.columns(3)
+m1.metric("Total Active Listings", len(filtered_df))
+m2.metric("Active Venues", filtered_df["venue"].nunique())
+m3.metric("Active Categories", filtered_df["category"].nunique())
+
+col_cat, col_ven = st.columns(2)
+
+with col_cat:
+    with st.expander("📂 Events Count per Category", expanded=True):
+        cat_counts = (
+            filtered_df["category"]
+            .value_counts()
+            .reset_index()
+            .rename(columns={"index": "Category", "count": "Events Count"})
+        )
+        st.dataframe(cat_counts, use_container_width=True, hide_index=True)
+
+with col_ven:
+    with st.expander("📍 Events Count per Venue", expanded=True):
+        venue_counts = (
+            filtered_df["venue"]
+            .value_counts()
+            .reset_index()
+            .rename(columns={"index": "Venue", "count": "Events Count"})
+        )
+        st.dataframe(venue_counts, use_container_width=True, hide_index=True)
 
 st.divider()
 
@@ -85,7 +181,9 @@ if st.button("🔄 Refresh Scraper & Reload Data"):
     st.success("Data reloaded successfully!")
     st.rerun()
 
-# Tabs: Community Events, Civic & Government Meetings, and Interactive Calendar
+# -------------------------------------------------------------------
+# 4. PRIMARY EVENT DISPLAY TABS
+# -------------------------------------------------------------------
 tab_community, tab_civic, tab_calendar = st.tabs(
     [
         "🎉 Community & Social Events",
@@ -93,16 +191,6 @@ tab_community, tab_civic, tab_calendar = st.tabs(
         "📅 Interactive Calendar View",
     ]
 )
-
-CATEGORY_EMOJIS = {
-    "Civic & Community Affairs": "🏛️",
-    "Live Music": "🎵",
-    "Nightlife & Pubs": "🍺",
-    "Shows & Arts": "🎭",
-    "Sports & Recreation": "⚽",
-    "Festivals & Community": "🎪",
-    "Community & Social": "👥",
-}
 
 
 def render_event_list(events_df):
@@ -115,14 +203,15 @@ def render_event_list(events_df):
             c1, c2 = st.columns([3, 1])
             cat_name = row.get("category", "General")
             emoji = CATEGORY_EMOJIS.get(cat_name, "📌")
+            display_dt = row.get("display_datetime", "TBD")
 
             with c1:
                 st.subheader(row.get("title", "Untitled Event"))
                 st.write(
-                    f"**Venue:** {row.get('venue', 'N/A')} ({row.get('city', 'South Bend')})"
+                    f"📍 **Venue:** {row.get('venue', 'N/A')} ({row.get('city', 'South Bend')})"
                 )
                 st.write(
-                    f"**Category:** `{emoji} {cat_name}` | **Date/Time:** {row.get('iso_start_time', 'TBD')}"
+                    f"🕒 **When:** `{display_dt}` | **Category:** `{emoji} {cat_name}`"
                 )
                 if pd.notna(row.get("link")):
                     st.markdown(f"[🔗 View Original Event Link]({row['link']})")
@@ -164,9 +253,10 @@ with tab_calendar:
     )
 
     if not cal_filtered.empty:
-        cal_df = cal_filtered[["date", "title", "venue", "category"]].sort_values(
-            "date"
-        )
+        cal_df = cal_filtered[
+            ["date", "display_datetime", "title", "venue", "category"]
+        ].sort_values("date")
+        cal_df = cal_df.rename(columns={"display_datetime": "Formatted Date & Time"})
         st.dataframe(cal_df, use_container_width=True)
     else:
         st.info("No events available for calendar view.")

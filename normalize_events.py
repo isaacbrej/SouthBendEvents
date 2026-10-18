@@ -48,8 +48,9 @@ class EventNormalizerPipeline:
             return (NOW + timedelta(days=1)).strftime("%Y-%m-%dT19:00:00")
 
     def categorize_event(self, title, venue, source_category):
-        """Tags events using dynamic keyword analysis to override source defaults."""
-        text = f"{title} {venue}".lower()
+        """Tags events using dynamic keyword analysis with strict priority ordering."""
+        title_lower = title.lower()
+        text_full = f"{title} {venue}".lower()
 
         # 1. Noise Filter: Exclude internal administrative noise listings
         noise_keywords = [
@@ -59,35 +60,40 @@ class EventNormalizerPipeline:
             "executive committee meeting",
             "internal staff meeting",
             "closed session",
-            "budget hearing",
         ]
-        if any(nk in text for nk in noise_keywords):
+        if any(nk in text_full for nk in noise_keywords):
             return "Filtered Out"
 
-        # 2. Civic, Government & Public Community Meetings
+        # 2. PRIORITY 1: Civic, Government & Public Community Meetings
+        # Evaluated FIRST to guarantee municipal meetings are never miscategorized as nightlife.
         civic_keywords = [
-            "town hall",
-            "city council",
             "board meeting",
+            "board of",
+            "city council",
+            "town hall",
             "committee meeting",
             "public hearing",
             "zoning",
-            "neighborhood association",
-            "forum",
-            "commissioners",
-            "commission",
-            "public meeting",
-            "listening session",
-            "public works",
             "plan commission",
             "plat committee",
             "merit board",
+            "merit commission",
             "board of health",
             "animal care",
             "election board",
             "redevelopment",
+            "public works",
+            "neighborhood association",
+            "historic preservation",
+            "special events committee",
+            "public safety",
+            "human rights commission",
         ]
-        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in civic_keywords):
+        if any(kw in text_full for kw in civic_keywords):
+            return "Civic & Community Affairs"
+
+        # Explicit regex check for generic board, council, commission, or meeting in title
+        if re.search(r"\b(board|council|commission|meeting)\b", title_lower):
             return "Civic & Community Affairs"
 
         # 3. Live Music & Concerts
@@ -105,7 +111,7 @@ class EventNormalizerPipeline:
             "jam session",
             "live set",
         ]
-        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in music_keywords):
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text_full) for kw in music_keywords):
             return "Live Music"
 
         # 4. Shows, Theater & Performing Arts
@@ -126,7 +132,7 @@ class EventNormalizerPipeline:
             "exhibit",
             "gallery",
         ]
-        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in shows_keywords):
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text_full) for kw in shows_keywords):
             return "Shows & Arts"
 
         # 5. Sports & Recreation
@@ -146,7 +152,7 @@ class EventNormalizerPipeline:
             "tournament",
             "volleyball",
         ]
-        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in sports_keywords):
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text_full) for kw in sports_keywords):
             return "Sports & Recreation"
 
         # 6. Nightlife, Bar & Pub Socials
@@ -165,7 +171,7 @@ class EventNormalizerPipeline:
             "karaoke",
             "pub crawl",
         ]
-        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in nightlife_keywords):
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text_full) for kw in nightlife_keywords):
             return "Nightlife & Pubs"
 
         # 7. Festivals & Fairs
@@ -179,10 +185,12 @@ class EventNormalizerPipeline:
             "celebration",
             "food truck",
         ]
-        if any(re.search(r"\b" + re.escape(kw) + r"\b", text) for kw in festival_keywords):
+        if any(re.search(r"\b" + re.escape(kw) + r"\b", text_full) for kw in festival_keywords):
             return "Festivals & Community"
 
-        # Fallback
+        # Fallback: Default to original source category or Community & Social
+        if source_category in ["Nightlife", "Bar & Pub"]:
+            return "Community & Social"
         return source_category if source_category else "Community & Social"
 
     def generate_ics_content(self, event):
