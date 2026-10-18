@@ -25,7 +25,6 @@ class EventNormalizerPipeline:
 
         clean_str = date_str.strip()
 
-        # Direct ISO-8601 parse
         try:
             dt = dateutil.parser.isoparse(clean_str)
             return dt.isoformat()
@@ -38,7 +37,6 @@ class EventNormalizerPipeline:
         elif "tomorrow" in lower_str:
             return (NOW + timedelta(days=1)).strftime("%Y-%m-%dT19:00:00")
 
-        # Fuzzy text parsing (e.g., "Oct 20", "Friday, Nov 12")
         try:
             dt = dateutil.parser.parse(clean_str, fuzzy=True, default=NOW)
             if dt.year < 2025 or dt.year > 2028:
@@ -48,25 +46,33 @@ class EventNormalizerPipeline:
             return (NOW + timedelta(days=1)).strftime("%Y-%m-%dT19:00:00")
 
     def categorize_event(self, title, venue, source_category):
-        """Tags events using dynamic keyword analysis with strict priority ordering."""
+        """Categorizes events to ensure social feeds are strictly fun & leisure activities."""
         title_lower = title.lower()
         text_full = f"{title} {venue}".lower()
 
-        # 1. Noise Filter: Exclude internal administrative noise listings
+        # 1. Noise Filter: Non-events, generic navigation, kids/afterschool programs, internal administrative noise
         noise_keywords = [
             "morning storytime",
             "toddler story",
             "infant laptime",
+            "after school",
+            "afterschool",
             "executive committee meeting",
             "internal staff meeting",
             "closed session",
+            "contact us",
+            "skip to content",
+            "skip navigation",
+            "view details",
+            "click here",
+            "privacy policy",
+            "terms of service",
         ]
         if any(nk in text_full for nk in noise_keywords):
             return "Filtered Out"
 
-        # 2. PRIORITY 1: Civic, Government & Public Community Meetings
-        # Evaluated FIRST to guarantee municipal meetings are never miscategorized as nightlife.
-        civic_keywords = [
+        # 2. Civic, Government, Municipal & Professional/Workplace Events
+        civic_professional_keywords = [
             "board meeting",
             "board of",
             "city council",
@@ -88,12 +94,23 @@ class EventNormalizerPipeline:
             "special events committee",
             "public safety",
             "human rights commission",
+            "training meeting",
+            "training session",
+            "summit",
+            "networking",
+            "professional development",
+            "workshop",
+            "seminar",
+            "symposium",
+            "conference",
+            "forum",
+            "business after hours",
+            "chamber of commerce",
         ]
-        if any(kw in text_full for kw in civic_keywords):
+        if any(kw in text_full for kw in civic_professional_keywords):
             return "Civic & Community Affairs"
 
-        # Explicit regex check for generic board, council, commission, or meeting in title
-        if re.search(r"\b(board|council|commission|meeting)\b", title_lower):
+        if re.search(r"\b(board|council|commission|meeting|summit|workshop|training)\b", title_lower):
             return "Civic & Community Affairs"
 
         # 3. Live Music & Concerts
@@ -151,6 +168,8 @@ class EventNormalizerPipeline:
             "yoga",
             "tournament",
             "volleyball",
+            "hike",
+            "kayak",
         ]
         if any(re.search(r"\b" + re.escape(kw) + r"\b", text_full) for kw in sports_keywords):
             return "Sports & Recreation"
@@ -188,10 +207,8 @@ class EventNormalizerPipeline:
         if any(re.search(r"\b" + re.escape(kw) + r"\b", text_full) for kw in festival_keywords):
             return "Festivals & Community"
 
-        # Fallback: Default to original source category or Community & Social
-        if source_category in ["Nightlife", "Bar & Pub"]:
-            return "Community & Social"
-        return source_category if source_category else "Community & Social"
+        # Fallback: Default to Community & Social for fun general socials
+        return "Community & Social"
 
     def generate_ics_content(self, event):
         """Generates iCalendar .ics format for 1-click Google Calendar export."""

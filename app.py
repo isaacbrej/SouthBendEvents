@@ -62,12 +62,15 @@ CATEGORY_EMOJIS = {
 }
 
 # -------------------------------------------------------------------
-# 1. 7-DAY UPCOMING CALENDAR AT THE TOP
+# 1. 7-DAY UPCOMING CALENDAR AT THE TOP (Excludes Civic Meetings)
 # -------------------------------------------------------------------
-st.subheader("📅 Next 7 Days At A Glance")
+st.subheader("📅 Next 7 Days At A Glance (Social & Fun)")
 
 today = date.today()
 next_7_days = [today + timedelta(days=i) for i in range(7)]
+
+# Filter top calendar to social/leisure events only by default
+social_df = df[df["category"] != "Civic & Community Affairs"]
 
 cols = st.columns(7)
 
@@ -79,10 +82,10 @@ for idx, day in enumerate(next_7_days):
         else:
             st.markdown(f"**{day.strftime('%A')}**\n`{day_str}`")
 
-        day_events = df[df["date"] == day]
+        day_events = social_df[social_df["date"] == day]
 
         if day_events.empty:
-            st.caption("No events")
+            st.caption("No social events")
         else:
             st.markdown(f"**{len(day_events)} Event(s)**")
             for _, ev in day_events.iterrows():
@@ -186,8 +189,8 @@ if st.button("🔄 Refresh Scraper & Reload Data"):
 # -------------------------------------------------------------------
 tab_community, tab_civic, tab_calendar = st.tabs(
     [
-        "🎉 Community & Social Events",
-        "🏛️ Civic & Community Government",
+        "🎉 Social & Leisure Events",
+        "🏛️ Civic & Professional Affairs",
         "📅 Interactive Calendar View",
     ]
 )
@@ -228,12 +231,14 @@ def render_event_list(events_df):
 
 
 with tab_community:
+    # Strictly non-civic/professional leisure events
     community_df = filtered_df[
         filtered_df["category"] != "Civic & Community Affairs"
     ]
     render_event_list(community_df)
 
 with tab_civic:
+    # Civic, municipal, board, council, workshop, & training meetings
     civic_df = filtered_df[
         filtered_df["category"] == "Civic & Community Affairs"
     ]
@@ -243,7 +248,7 @@ with tab_calendar:
     st.subheader("Event Timetable")
 
     show_civic = st.checkbox(
-        "Include Civic & Government Meetings in Calendar View", value=False
+        "Include Civic & Professional Events in Calendar View", value=False
     )
 
     cal_filtered = (
